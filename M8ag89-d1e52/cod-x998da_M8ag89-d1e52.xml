@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Prologus [Pal lat 1340 Transcription]</title>
+        <author ref="#per-PePeMa">Petrus Peregrinus de Maricourt</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Prologus [Pal lat 1340 Transcription]</title>
+          <date when="2021-03-12">March 12, 2021</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref></p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="V" n="cod-x998da">Rome, Biblioteca Apostolica Vaticana, Pal. lat. 1340</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0 
+          guidelines for a diplomatic edition.
+        </p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2021-03-12" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>  
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#V" n="30-v"/>
+        <cb ed="#V" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="M8ag89-d1e52">
+        <head>Prologus</head>
+        <p>
+          <lb ed="#V"/>Incipit tractatus de magne<lb ed="#V" break="no"/>te 
+          docens multas pulchras 
+          <lb ed="#V"/>subtilitates et raras
+        </p>
+        <p>
+          <lb ed="#V"/>Iste tractatus de magnete 
+          <lb ed="#V"/>duas partes continet quarum 
+          <lb ed="#V"/>prima 10 capitulis completur et secunda 3us
+          <lb ed="#V"/>primum capitulum primae partis est de operis 
+          <lb ed="#V"/>intentione Secundum vero qualis debet 
+          <lb ed="#V"/>esse huius operis artifex Ter<lb ed="#V" break="no"/>tium 
+          de cognitione lapidis Quartum 
+          <lb ed="#V"/>de scientia inventionis partium lapi<lb ed="#V" break="no"/>dis
+          Quintium de scientia inventionis 
+          <lb ed="#V"/>polorum in <unclear>lapide</unclear> <unclear>s</unclear> quis eorum sit 
+          <lb ed="#V"/>7trionalis et quis meridionalis
+          <lb ed="#V"/>Sextum qualiter magnes attra<lb ed="#V" break="no"/>hit 
+          magnetem Septimum qualiter 
+          <lb ed="#V"/><unclear>ferrum</unclear> tactum cum magnete ad 
+          <lb ed="#V"/>polos mundi vergatur Octavum 
+          <lb ed="#V"/>qualiter magnes ferrum attra<lb ed="#V" break="no"/>nat 
+          Nonum quare pars 7trionalis 
+          <lb ed="#V"/>meridionalem attrahat et e converso
+          <lb ed="#V"/>Decimum de inquisitione unde mag<lb ed="#V"/>nes 
+          virtutem naturalem quam habet reci<lb ed="#V" break="no"/>piat
+          <pc type="virgula">/</pc> Primum capitulum de compo<lb ed="#V"/>sitione 
+          <del rend="strikethrough">alterius</del> instrumenti quo scitur 
+          <lb ed="#V"/>azimuth solis et lunae et cuius<lb ed="#V"/>libet
+          stellae in orizonte Secundum de com<lb ed="#V"/>positione 
+          alterius instrumenti melioris 
+          <lb ed="#V"/>eiusdem officii Tertium de rotae ar<cb ed="#V" n="b"/><lb ed="#V" break="no"/>tificio 
+          compositionis perpetui motus
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

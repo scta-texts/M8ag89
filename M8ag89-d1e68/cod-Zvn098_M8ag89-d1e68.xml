@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Pars 2 [Ausburg 1558 Transcription]</title>
+        <author ref="#per-PePeMa">Petrus Peregrinus de Maricourt</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Pars 2 [Ausburg 1558 Transcription]</title>
+          <date when="2021-03-12">March 12, 2021</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref></p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="A" n="cod-Zvn098">Ausburg 1558</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0 
+          guidelines for a diplomatic edition.
+        </p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2021-03-12" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>  
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#A" n="22"/><!-- b3v -->
+      </div>
+    </front>
+    <body>
+      <div xml:id="M8ag89-d1e68">
+        <head xml:id="M8ag89-d1e68-Hd1e106">Pars 2</head>
+        <div xml:id="M8ag89-d1e68-Dd1e109">
+          <head xml:id="M8ag89-d1e68-Hd1e111">Caput 1</head>
+          <head xml:id="M8ag89-d1e68-Hd1e114" type="quesiton-title">De compositione instrumenti, quo scitur azimuth solis et lunae
+            et cuiuslibet stellae in horizonte.</head>
+          <p xml:id="M8ag89-d1e68-d1e117">
+            <lb ed="#A" n="13"/>SECUNDAE PARTIS CAP: I DE 
+            <lb ed="#A" n="14"/>Compositione instrumenti, quo scitur Azi¬ 
+            <lb ed="#A" n="15"/>muth Solis, &amp; Lunę, &amp; cuiuslibet 
+            <lb ed="#A" n="16"/>Stellae in Horizonte. 
+          </p>
+          <p xml:id="M8ag89-d1e68-d1e124">
+            <lb ed="#A" n="17"/>Visis operibus naturalibus Magnetis mani¬ 
+            <lb ed="#A" n="18"/>festis, accedamus ad instrumenta, quae ex co¬ 
+            <lb ed="#A" n="19"/>gnitione operis naturalis ipsius pendent.
+          </p>
+          <p xml:id="M8ag89-d1e68-d1e137">
+            Sumatur 
+            <lb ed="#A" n="20"/>itaque Magnes rottundus &amp; inveniantur Poli ut 
+            <lb ed="#A" n="21"/>dictum est, &amp; elimetur inter duos polos in duabus 
+            <lb ed="#A" n="22"/>partibus, ut sit lapis sicut Sphera compressa inter 
+            <lb ed="#A" n="23"/>duos polos, quo minorem locum obtineat: Hic 
+            <lb ed="#A" n="24"/>quidem lapis sic preparatus, inter duas positus ca¬ 
+            <!--37.xml-->
+            <pb ed="#A" n="37"/>
+            <lb ed="#A" n="1"/>psulas, in modum capsulę speculi recludatur in 
+            <lb ed="#A" n="2"/>medio, Et capsulę ad invicem sic iungantur, quod ulte¬ 
+            <lb ed="#A" n="3"/>rius non magis adperiantur, nec aqua subingredia¬ 
+            <lb ed="#A" n="4"/>tur, preparentur capsulę cum cola ad hoc apta, &amp; sint 
+            <lb ed="#A" n="5"/>capsulę ex ligno levi. Quo facto pone capsulas, sic 
+            <lb ed="#A" n="6"/>aptatas, in vase magno, pleno aqua, in quo sint 
+            <lb ed="#A" n="7"/>duę partes Mundi, scilicet Meridionalis &amp; Sep¬ 
+            <lb ed="#A" n="8"/>temtrionalis, inventę &amp; signatę, quę designentur 
+            <lb ed="#A" n="9"/>per filum extensum a parte Septemtrionali vasis, 
+            <lb ed="#A" n="10"/>usque ad partem Meridionalem: Dimitte ergo ca¬ 
+            <lb ed="#A" n="11"/>psulas fluctuare, &amp; sit super eas lignum gracile in 
+            <lb ed="#A" n="12"/>modum diametri. Move ergo lignum illud super 
+            <lb ed="#A" n="13"/>capsulas, donec lineę meridionali, prius inventae, 
+            <lb ed="#A" n="14"/>&amp; per filum designatę sit aequidistans, aut eadem 
+            <lb ed="#A" n="15"/>cum ipsa: Quo facto, secundum situm illius ligni 
+            <lb ed="#A" n="16"/>sic situati, signa lineam in capsulis, Et erit perpe¬ 
+            <lb ed="#A" n="17"/>tuo linea Meridionalis in illa regione. Ista ergo li¬ 
+            <lb ed="#A" n="18"/>nea, per aliam, ipsam orthogonaliter secantem, 
+            <lb ed="#A" n="19"/>per medium dividatur, &amp; erit linea Orientis &amp; Occi 
+            <lb ed="#A" n="20"/>dentis: Et sic habeas quatuor quartas in capsulis 
+            <lb ed="#A" n="21"/>actualiter signatas, Quatuor mundi partes desig¬ 
+            <lb ed="#A" n="22"/>nantes. Quarum quelibet in 90 partes dividi debet, 
+            <lb ed="#A" n="23"/>ut sint in universum 360 partes in tota circum¬ 
+            <lb ed="#A" n="24"/>ferentia capsularum: Et inscribe partes in ea, sicut 
+            <lb ed="#A" n="25"/>in dorso Astrolabii consueuerunt inscribi. Erit in¬ 
+            <lb ed="#A" n="26"/>super regula tenuis &amp; levis super capsulas sic in¬ 
+            <lb ed="#A" n="27"/>scriptas, admodum regulę in dorso Astrolabii: Lo¬ 
+            <!--38.xml-->
+            <pb ed="#A" n="38"/>
+            <lb ed="#A" n="1"/>co tamen pinnularum, erigantur orthogonaliter 
+            <lb ed="#A" n="2"/>duo stili, super capita regulae.
+          </p>
+          <p xml:id="M8ag89-d1e68-d1e251">
+            Si ergo habere vo¬ 
+            <lb ed="#A" n="3"/>lueris Azimuth Solis de die, pone capsulas in a¬ 
+            <lb ed="#A" n="4"/>quam, &amp; dimitte eas moveri, donec in suo situ 
+            <lb ed="#A" n="5"/>quiescant, Et ita eas tene firmiter cum manu una, 
+            <lb ed="#A" n="6"/>&amp; cum reliqua move regulam, donec Umbra stili 
+            <lb ed="#A" n="7"/>cadat secundum longitudinem ipsius, &amp; tunc caput 
+            <lb ed="#A" n="8"/>regulę ex parte Solis ostendet Azimuth ipsius So 
+            <lb ed="#A" n="9"/>lis. Si fuerit ventus, cooperiantur capsulę, cum ali¬ 
+            <lb ed="#A" n="10"/>quo vase, donec situm suum habeant. De nocte 
+            <lb ed="#A" n="11"/>vero idem facias ad Lunam &amp; stellas per visum: 
+            <lb ed="#A" n="12"/>Mouebis enim regulam, donec sumitates stilorum 
+            <lb ed="#A" n="13"/>regula ipsa attingat &amp; Luna uel Stella sint in ea¬ 
+            <lb ed="#A" n="14"/>dem linea, Sumitas enim regulae ostendet Azi¬ 
+            <lb ed="#A" n="15"/>muth ipsius, sicut prius in Sole. Cognosces au¬ 
+            <lb ed="#A" n="16"/>tem postea per Azimuth horas, &amp; ascendens, &amp; 
+            <lb ed="#A" n="17"/>ascensciones &amp; cuncta, quę oportet secundum 
+            <lb ed="#A" n="18"/>Astrolabii doctrinam complere: Huius autem in¬ 
+            <lb ed="#A" n="19"/>strumenti formam, sequens figura demonstrat.
+          </p>
+          <p xml:id="M8ag89-d1e68-d1e299">
+            <pb ed="#A" n="39"/>
+            <lb ed="#A" n="1"/><graphic url="http://exist.scta.info/exist/apps/scta-data/M8ag89/M8ag89-d1e68/cod-Zvn098_M8ag89-d1e68-Gvnhuf8.svg"><desc>Figure</desc></graphic>
+          </p>
+        </div>
+        <div xml:id="M8ag89-d1e68-Dd1e306">
+          <head xml:id="M8ag89-d1e68-Hd1e308">Caput 2</head>
+          <p xml:id="M8ag89-d1e68-d1e311">
+            <lb ed="#A" n="2"/>CAP: II DE COMPOSITIO¬ 
+            <lb ed="#A" n="3"/>ne Instrumenti melioris, eius¬ 
+            <lb ed="#A" n="4"/>dem officii. 
+          </p>
+          <p xml:id="M8ag89-d1e68-d1e318">
+            
+            
+            <lb ed="#A" n="5"/>In hoc autem capite dicemus tibi modum com¬ 
+            <lb ed="#A" n="6"/>positionis alterius instrumenti melioris &amp; certi¬ 
+            <lb ed="#A" n="7"/>oris effectus. Fiat vas ligneum, vel aeneum, vel cu¬ 
+            <lb ed="#A" n="8"/>iuscunque volueris materiei solidę, &amp; sit ad modum 
+            <lb ed="#A" n="9"/>pixidis, contractum, parum profundum, &amp; sit com¬ 
+            <!--40.xml-->
+            <pb ed="#A" n="40"/>
+            <lb ed="#A" n="1"/>petenter amplum, Et aptetur super id cooperculum 
+            <lb ed="#A" n="2"/>de materia transparente, sicut est vitrum vel cri¬ 
+            <lb ed="#A" n="3"/>stallum: Si totum etiam vas fuerit materiei trans¬ 
+            <lb ed="#A" n="4"/>parentis, melius erit. Disponatur in medio talis 
+            <lb ed="#A" n="5"/>vasis Axis gracilis de aere vel de argento, adplicans 
+            <lb ed="#A" n="6"/>extremitates suas ad duas partes pixidis, scilicet 
+            <lb ed="#A" n="7"/>superius &amp; inferius, sintque foramina duo in medio 
+            <lb ed="#A" n="8"/>axis orthogonaliter sese respicientia, transeatque un¬ 
+            <lb ed="#A" n="9"/>us stilus ferreus, ad modum acus, per alterum il¬ 
+            <lb ed="#A" n="10"/>lorum foraminum, Et per aliud transeat alius sti¬ 
+            <lb ed="#A" n="11"/>lus argenteus vel ęneus, intersecans ferrum ortho¬ 
+            <lb ed="#A" n="12"/>gonaliter, Cooperculum vero dividatur in quatuor 
+            <lb ed="#A" n="13"/>quartas primo, &amp; quelibet earum in nonaginta 
+            <lb ed="#A" n="14"/>partes, ut dicebatur in priori instrumento, Et sig¬ 
+            <lb ed="#A" n="15"/>netur Septemtrio, Meridies, Oriens, &amp; Occidens 
+            <lb ed="#A" n="16"/>in eodem ut decet, &amp; addatur ei regula de materia 
+            <lb ed="#A" n="17"/>pellucida transparenti, cum stilis in summitatibus 
+            <lb ed="#A" n="18"/>erectis, Tunc adproximes, quam partem Magne¬ 
+            <lb ed="#A" n="19"/>tis vis, sive Septemtrionalem sive Meridionalem, 
+            <lb ed="#A" n="20"/>crystallo, donec acus ad ipsum moveatur, &amp; ab i¬ 
+            <lb ed="#A" n="21"/>pso virtutem recipiat: Quo facto volue pixidem, 
+            <lb ed="#A" n="22"/>donec una summitas eius steterit in directo Septem 
+            <lb ed="#A" n="23"/>trionis in instrumento, ex parte Septemtrionali, 
+            <lb ed="#A" n="24"/>&amp; tunc volve regulam ad Solem de die, et Lunam 
+            <lb ed="#A" n="25"/>vel Stellas de nocte, modo supra dicto.
+          </p>
+          <p xml:id="M8ag89-d1e68-d1e416">
+            <!--39.xml-->
+            Per hoc 
+            <lb ed="#A" n="26"/>item Instrumentum diriges gressus tuos ad civitates 
+            <lb ed="#A" n="27"/>&amp; insulas, &amp; loca quęcunque, &amp; ubicunque volueris 
+            <!--41.xml-->
+            <pb ed="#A" n="41"/>
+            <lb ed="#A" n="1"/>in terra vel mari, dummodo longitudines &amp; latitu 
+            <lb ed="#A" n="2"/>dines ipsorum tibi sint notę. Qualiter autem fer¬ 
+            <lb ed="#A" n="3"/>rum in aëre stet virtute lapidis huius, in libro de 
+            <lb ed="#A" n="4"/>operibus Speculorum narrabimus: Et hęc est iam 
+            <lb ed="#A" n="5"/>dicti lapidis instrumentalis descriptio, ut hic de¬ 
+            <lb ed="#A" n="6"/>picta est.
+          </p>
+          <p xml:id="M8ag89-d1e68-d1e438">
+            <lb ed="#A" n="7"/><graphic url="http://exist.scta.info/exist/apps/scta-data/M8ag89/M8ag89-d1e68/cod-Zvn098_M8ag89-d1e68-Gcan28a.svg"><desc>Figure</desc></graphic>
+            <lb ed="#A" n="8"/>Totum cooperculum fit de crystallo vel simili materia trans¬ 
+            <lb ed="#A" n="9"/>parente, ut limbum A. B. C. D. contineat, Limbus vero hanc 
+            <lb ed="#A" n="10"/>totam superficiem continens, videlicet F. G. H. I., est circulus 
+            <lb ed="#A" n="11"/>pixidis continentis, constituens cum cooperculo superficiem 
+            <lb ed="#A" n="12"/>vnam &amp;c. 
+          </p>
+        </div>
+        <div xml:id="M8ag89-d1e68-Dd1e448">
+          <head xml:id="M8ag89-d1e68-Hd1e450">Caput 3</head>
+          <head xml:id="M8ag89-d1e68-Hd1e453" type="question-title">De artificio compositionis rotae perpetui motus</head>
+          <p xml:id="M8ag89-d1e68-d1e456">
+            <pb ed="#A" n="42"/>
+            <lb ed="#A" n="1"/>CAP: III DE ARTIFICIO 
+            <lb ed="#A" n="2"/>Compositionis Rotę perpe¬ 
+            <lb ed="#A" n="3"/>tui motus.  
+          </p>
+          <p xml:id="M8ag89-d1e68-d1e463">
+            <lb ed="#A" n="4"/>In hoc autem capitulo tibi revelabo modum 
+            <lb ed="#A" n="5"/>componendi Rotam continue mobilem, mira¬ 
+            <lb ed="#A" n="6"/>bili ingenio: In cuius inventione multos vidi va¬ 
+            <lb ed="#A" n="7"/>gos, ac labore multiplici fatigatos, Non enim ad¬ 
+            <lb ed="#A" n="8"/>vertebant per virtutem, seu potentiam, huius la¬ 
+            <lb ed="#A" n="9"/>pidis ad huiusmodi se magisterium posse perve¬ 
+            <lb ed="#A" n="10"/>nire.
+          </p>
+          <p xml:id="M8ag89-d1e68-d1e487">
+            Ad rotę igitur huius compositionem seu con 
+            <lb ed="#A" n="11"/>structionem, compones capsulam argenteam, ad 
+            <lb ed="#A" n="12"/>modum capsulae speculi, concavam, subtili artifi¬ 
+            <lb ed="#A" n="13"/>cio extrinsecus elaboratam, cum sculpturis &amp; per¬ 
+            <lb ed="#A" n="14"/>foraturis, quas facies sola pulchritudinis caussa, 
+            <lb ed="#A" n="15"/>&amp; alleviationis ponderis, Ita tamen perforabis, 
+            <lb ed="#A" n="16"/>quod oculus ignari infra capsulas non percipiat, 
+            <lb ed="#A" n="17"/>quod in ea subtiliter inseretur. Interius autem 
+            <lb ed="#A" n="18"/>sint clauvli vel denticuli ferrei, unius ponderis, lim¬ 
+            <lb ed="#A" n="19"/>bo affixi, declives, propinqui, Ita ut non distet un¬ 
+            <lb ed="#A" n="20"/>us ab alio, plus quam unius fabę vel ciceris est 
+            <lb ed="#A" n="21"/>spissitudo. Sit autem dicta rotula in pondere sua¬ 
+            <lb ed="#A" n="22"/>rum partium uniformis: Et tunc axem affigas per 
+            <lb ed="#A" n="23"/>medium, super quam volvatur rotula, axe immo¬ 
+            <lb ed="#A" n="24"/>bili existente, Cui axi stilus addatur argenteus, af¬ 
+            <lb ed="#A" n="25"/>fixus eidem inter duas capsulas collocatus, in cu¬ 
+            <lb ed="#A" n="26"/>ius summitate Magnes situetur, in hunc modum 
+            <!--43.xml-->
+            <pb ed="#A" n="43"/>
+            <lb ed="#A" n="1"/>preparatus:
+          </p>
+          <p xml:id="M8ag89-d1e68-d1e557">
+            Rotundetur &amp; inveniantur poli, ut 
+            <lb ed="#A" n="2"/>dictum est, Postea figuretur in modum Ovi, po¬ 
+            <lb ed="#A" n="3"/>lis intactis, &amp; in duabus partibus intermediis op¬ 
+            <lb ed="#A" n="4"/>positis aliquantulum elimetur, ut sit compressus, 
+            <lb ed="#A" n="5"/>ad hoc quod minorem locum occupet, ne parietes 
+            <lb ed="#A" n="6"/>capsulę motu rotulę interius tangat, Quo sic di¬ 
+            <lb ed="#A" n="7"/>sposito, super stilum collocetur ut lapis in annulo: 
+            <lb ed="#A" n="8"/>Sitque polus Septemtrionalis versus denticulos ro¬ 
+            <lb ed="#A" n="9"/>tulae, aliquantulum inclinatus, ut virtus ipsius non 
+            <lb ed="#A" n="10"/>diametraliter, sed cum aliquali inclinatione, in fer¬ 
+            <lb ed="#A" n="11"/>reos denticulos influat, Ut cum quilibet denticu¬ 
+            <lb ed="#A" n="12"/>lus ad polum Septemtrionalem venerit, &amp; modi¬ 
+            <lb ed="#A" n="13"/>cum ex impetu rotulę illum transierit, ad partem 
+            <lb ed="#A" n="14"/>Meridionalem accedat, quę potius fugabit quam 
+            <lb ed="#A" n="15"/>attrahet, ut patet per regulam superius traditam: 
+            <lb ed="#A" n="16"/>Sicque erit quilibet denticulus in tractu perpetuo, 
+            <lb ed="#A" n="17"/>&amp; fuga perpetua.
+          </p>
+          <p xml:id="M8ag89-d1e68-d1e616">
+            Et ut velocius rotula suum ex¬ 
+            <lb ed="#A" n="18"/>erceat officium, intra capsulam reclude calculum 
+            <lb ed="#A" n="19"/>parvum, rotundum, aeneum, vel argenteum, tantę 
+            <lb ed="#A" n="20"/>quantitatis quod inter quoslibet duos denticulos 
+            <lb ed="#A" n="21"/>capiatur, Ita quod cum Rota elevabitur, calculus 
+            <lb ed="#A" n="22"/>cadat in partem oppositam. Quare cum motus 
+            <lb ed="#A" n="23"/>rotę sit perpetuus in unam partem, etiam &amp; ca¬ 
+            <lb ed="#A" n="24"/>sus calculi erit in partem oppositam, receptus in¬ 
+            <lb ed="#A" n="25"/>ter quoslibet denticulos Rote perpetuę, qui sua 
+            <lb ed="#A" n="26"/>ponderositate petens centrum Terrae, faciet iuua¬ 
+            <lb ed="#A" n="27"/>mentum, denticulosque non sinet in directo lapidis 
+            <!--44.xml-->
+            <pb ed="#A" n="44"/>
+            <lb ed="#A" n="1"/>quiescere. Sint autem loca inter denticulos con¬ 
+            <lb ed="#A" n="2"/>venienter incuruata, ut apte capere possint calcu¬ 
+            <lb ed="#A" n="3"/>lum in parte sui casus, veluti sequens depictum 
+            <lb ed="#A" n="4"/>diagramma commonstrat.
+          </p>
+          <p xml:id="M8ag89-d1e68-d1e561">
+            <lb ed="#A" n="5"/> <graphic url="http://exist.scta.info/exist/apps/scta-data/M8ag89/M8ag89-d1e68/cod-Zvn098_M8ag89-d1e68-Gcn48nn.svg"><desc>Figure</desc></graphic>
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,314 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Pars 1 [Pal lat 1340 Transcription]</title>
+        <author ref="#per-PePeMa">Petrus Peregrinus de Maricourt</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Pars 1 [Pal lat 1340 Transcription]</title>
+          <date when="2021-03-12">March 12, 2021</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref></p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="V" n="cod-x998da">Rome, Biblioteca Apostolica Vaticana, Pal. lat. 1340</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0 
+          guidelines for a diplomatic edition.
+        </p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2021-03-12" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>  
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#V" n="30-v"/>
+        <cb ed="#V" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="M8ag89-d1e60">
+        <head>Pars 1</head>
+        <div>
+          <head>Caput 1</head>
+          <head type="question-title">De operis intentione</head>
+          <p>
+            <lb ed="#V"/>Sequitur de intentione huius operis 
+            <lb ed="#V"/>et de <unclear>emulgatione</unclear> eiusdem 
+          </p>
+          <p>
+            <lb ed="#V"/>Amicorum intime quandam magnetis lapidis occultam naturam a te interpellatus rudi narrazione
+            tibi reserabo utcumque Nihil enim apud philosophos absque notitiae partecipio est iucundum et in
+            tenebris orbitat et offuscatur bonorum natura donec in communis deditionis radium erigatur
+            Amore ergo tui conscribam sermone plano quae vulgo studentium penitus sunt ignota
+            Attamen non nisi de manifestis huius lapide in hac epistula trademus scientiam eo quod haec
+            traditio pars erit tractatus in quo docebimus physica componere instrumenta De occultis huius
+            lapidis tractare spectat ad artem lapidum sculpturae Et licet opera de quibus quaesivisti appellem
+            manifesta erunt tamen inaestimabilia et vulgo quasi illusione set phantasmata et ideo quoad
+            vulgum secreta sunt astrologis autem et naturalibus satis erunt manifesta et ipsis erunt solacium et
+            provectis viatoribus erunt non modici iuvamenti Ex his ergo colligatur huius operis intentio
+          </p>
+        </div>
+        <div>
+          <head>Caput 2</head>
+          <head type="question-title">Qualis debeat esse huius operis artifex</head>
+          <p>
+            Capitulum secundum qualis debeat esse huius operis artifex
+          </p>
+          <p>
+            Scito karissime quod oportet huius operis artificem scire rerum naturas nec ignarum ipsum esse
+            oportet motuum caelestium sed oportet ipsum esse industriosum in opere manuum ad hoc quod
+            ostendat per opus huius lapidis effectus mirabiles Nam per suam industriam ex modico poterit
+            errorem corrigere quod in Aeternum per naturalem et mathematicam solas non faceret si manuum
+            careret industria In occultis enim operibus multum indigemus industria manuali et ut plurimum
+            sine ipsa nihil possumus facere completum Multa namque subiacent imperio rationis que manu
+            complere non possumus Et his ergo patet qualis debeat esse huius operis artifex
+          </p>
+        </div>
+        <div>
+          <head>Caput 3</head>
+          <p>
+            Capitulum tertium de cognizione lapidis
+          </p>
+          <p>Cognoscitur autem iste lapis quatuor differentiis scilicet colore unigeneitate pondere et virtute
+            Color autem ipsius debet esse ferreus lividus mixtus indico seu colore celestino ut sit quasi ferrum
+            politum ab aere corrupto infectum Tale enim lapidem numquam vidi absque magno effectu Talis
+            autem ut plurimus invenitur in partibus septemtrionalibus ut puta Normanniae Picardiae et
+            Flandriae</p>
+          <p>Debem etiam lapis esse unigeneus in substantia quoniam qui habet maculas rubiginosas et
+            foramina per loca non est electus Et vix invenitur magnes absque scabiositate tali
+            Lapis etiam qui propter sui unigeneitatem et subtilium partium bonam compaginem efficitur
+            ponderosus praetiosior existit in praetio</p>
+          <p>Virtus autem ipsius per fortem ferri et magni ponderis attractionem cuius modum attractionis
+            inferius narrabo dinoscitur</p>
+          <p>Si ergo lapidem cum his differentiis inveneris hunc habeas si possis Patet ergo ex quibus
+            differentiis eliciatur huius lapidis cognitio</p>
+        </div>
+        <div>
+          <head>Caput 4</head>
+          <head type="question-title">De scientia inventionis partium lapidis</head>
+          <p>Capitulum quartum de scientia inventionis partium lapidis</p>
+          <p>Scire debes quod his lapis in se gerit similitudinem caeli cuius modum probationis tibi inferius
+            docebo patenter experiri Et ideo cum in caelo sint duo puncta notabiliora ceteris eo quod sphaera
+            caelistis supra ea volvitur tamquam super axes quorum unum polus arcticus sive septemtrionalis
+            nominatur reliquum vero antarcticus sive meridionalis sic et in isto lapide penitus intelligas duo
+            puncta unum septemtrionale reliquum meridionale</p>
+          <p>Ad istorum duorum punctorum generalem inventionem multiplici industria poteris devenire Et est
+            modus ut rotundetur cum artificio quo rotundantur cristalli at alii lapides et postea ponatur acus vel
+            ferrum oblongum gracile in modum acus supra lapidem et secundum longitudinem ferri signetur
+            linea lapidem dividens per medium Postea ponatur acus vel ferrum in alio situ supra lapidem et
+            secundum illum situm eodem modo lapidem signa cum linea Et si vis facias hoc in pluriuso locis
+            vel sitibus Procul dubio omnes lineae huiusmodi in duo puncta concurrent sicut omnes orbes
+            meridiani in duos concurrunt polos mundi oppositos Scito tunc quod unus est septemtrionalis et
+            alius meridionalis cuius probationem in sequenti capitulo videbis</p>
+          <p>Alias autem est modus inventionis istorum punctorum melior et est ut videas locum in lapide
+            rotundato ut dictum est ubi summitas actus vel ferri frequentius vel fortius adhaeret Erit enim hic
+            locus unus ex punctis inventis per iam dictum modum Ut ergo praecise habeas punctum unum in
+            lapide frange de acu vel ferro modicum ut sit oblongum ad spissitudinem duorum unguium et
+            pone supra locum in quo punctus modo iam dicto inventus est Et si steterit orthogonaliter supra
+            lapidem erit procul dubio ibi punctus quaesitus Si non moveas ergo ipsum donec orthogonaliter
+            steterit Quo facto illic signa punctum Et simili modo in opposita parte lapidis punctum invenias
+            oppositum Quod si recte feceris et lapis sit unigeneus et electus puncta erunt tamquam poli in
+            sphaera opposita</p>
+        </div>
+        <div>
+          <head>Caput 5</head>
+          <head type="question-title">De scientia inventionis polorum in lapide, quis eorum sit septemtrionalis et quis
+            meridionalis</head>
+          <p>Capitulum quintum de scientia inventionis polorum in lapide quis eorum sit septemtrionalis et quis
+            meridionalis</p>
+          
+          <p>
+            <lb ed="#V"/>Visa arte cognitionis polorum lapidis in genere quis autem sit septemtrionalis et quis meridionalis
+            cognosces per hunc modum</p>
+          <p>Sume vas ligneum rotundum ad modum ciphi vel perapsidis et in eo pone lapidem ita videlicet
+            quod duo puncta lapidis sint aequidistantia limbo vasis Et tunc istud vas cum lapide intus posito
+            pone in alio magno vase pleno aqua ut sit lapis in primo vase sicut nauta in navi Vas autem
+            primum sit in secundo spatiose sicut navis in flumine fluctuans vel in mari et dico spatiose ne per
+            contactum ipsius ad limbum magni vasis motus naturalis lapidis impediatur Hic enim lapis sic
+            positus volvet suum parvum vas quousque polus septemtrionalis lapidis in directo septemtrionalis
+            caeli et meridionalis in directo meridionalis steterint Qui scilicet lapis si millesies amoveatur
+            millesies ad suum locum revertetur nutu dei Et cum partes septemtrionis et meridiei sint in caelo
+            notae erunt notae per illas in lapide eo quod quaelibet pars lapidis erit in directo suae partis caeli
+          </p>
+          <p>
+            
+          </p>
+        </div>
+        <div>
+          <head>Caput 6</head>
+          <p>Capitulum sextum qualiter magnes attrahit magnetem</p>
+          <p>
+            <lb ed="#V"/>Habita cognitione quis polus in lapide sit septemtrionalis et quis meridionalis signa polos cum
+            sculpturis ut cognoscas eor quotiens oportuerit Et si vis postea videre qualiter lapis lapidem
+            attrahat duos lapides praeparatos ut dictum est in hunc modum adaptabis Et pone unum in suo
+            vase ut fluctuet sicut nauta in navi et sint puncta iam inventa aequidistantia horizonti vel limbo
+            vasis quod idem est alterum vero lapidem in manu teneas Et approxima parte septemtrionalem
+            lapidis quem tenes parti meridionali lapidis natantis in vase Sequetur enim lapis natans lapidem
+            quem tenebis quasi volens ei adhaerere Et si partem meridionalem lapidis quem baiulas e
+            converso parti septemtrionali lapidis natantis praetenderis accidet illud idem videlicet quod natans
+            sequetur lapidem quem tenebis</p>
+          <p>Scito ergo pro regula quod pars septemtrionalis in lapide partem meridionalem attrahit in alio
+            lapide et meridionalis septemtrionalem Quod si e converso feceris scilicet quod septemtrionalem
+            septemtrionali approximes lapis quem in manu baiulas lapidem natantem fugare videbitur et si
+            meriodionalem meridionali iungas idem accidet Et hoc ideo quia pars septemtrionalis appetit
+            meridionalem quare septemtrionalem fugare videbitur Cuius signum est quod finaliter meridionali
+            iungetur Et converso autem accidit de parte reliqua scilicet meridionali quod si praetendatur
+            meridionali lapidis natantis videbitur eam fugare cum tamen non faciat sicut dictum est de parte
+            septemtrionali ad meridionalem</p>
+          <p>Ex hoc evacuatur quorundam fatuitas dicentium quod si scamonea coleram ratione similitudinis
+            attraheret ergo magnes magnetem magis quam ferrum attraheret Quod falsum supponunt cum sit
+            tamen verum sicut patet experimento</p>
+        </div>
+        <div>
+          <head>Caput 7</head>
+          <head type="question-title">Qualiter ferrum tactum cum magnete ad polos mundi vertatur</head>
+          <p>Capitulum septimum qualiter ferrum tactum cum magnete ad polos mundi vertatur</p>
+          <p>
+            <lb ed="#V"/>Et quo notum est omnibus expertis quod cum 
+            <lb ed="#V"/>ferrum oblongum magnetem tetigerit et ligno levi vel
+            festucae fuerit affixum et aquae expositum una pars movebitur ad stellam quam nauticam vocant
+            eo quod prope polum est – nam veritas est quod non movetur ad stellam dictam sed ad polum
+            cuius probationem afferemus in suo capitulo - pars vero reliqua ad partem caeli movetur reliquam
+            Quae autem pars ferri ad quam partem caeli movetur scias quod pars ferri quam meridionalis
+            lapidis tetigerit ad septemtrionalem caeli vertetur E converso autem erit de parte ferri quam pars
+            septemtrionalis lapidis tetigerit scilicet quod ad meridionalem vertetur Et est res miranda non
+            intelligenti causam motus ferri huius vero experientia non verum dixisse probabit
+          </p>
+        </div>
+        <div>
+          <head>Caput 8</head>
+          <head type="question-title">Qualiter magnes ferrum attrahat</head>
+          <p>Capitulum octavum qualiter magnes ferrum attrahat</p>
+          
+          <p>Si autem secundum naturalem appetitum lapidis velis ferrum fluctuans sive natans super aquam
+            attrahere vide partem septemtrionalem ferri et ei approxima partem meridionalem lapidis eam
+            enim insequetur vel e converso parti meridionali ferri porrige septemtrionalem lapidis eam enim
+            sine resistentia attrahet Si autem facias e converso quod parti septemtrionali ferri partem
+            septemtrionalem lapidis approximes ferrum fugare videbitur quousque pars meridionalis ferro
+            eidem coniungatur Et similiter de parte reliqua idem intelligas Si tamen violentia fiat partibus
+            quod videlicet pars ferri meriodionalis quae cum septemtrionali lapidis tacta fuerit tangatur cum
+            meridionali lapidis vel illa quae cum meridionali tacta fuit quae etiam meridionalis in ferro
+            appellatur meridionali lapidis iungatur alterabitur virtus in ferro de facili et fiet meridionale quod
+            fuit septemtrionale in eo et e converso Et causa huius est impressio ultimi agentis confundentis et
+            alterantis virtutem primi</p>
+        </div>
+        <div>
+          <head>Caput 9</head>
+          <head type="question-title">Qualiter pars septemtrionalis meridiolanem attrahat et e converso</head>
+          
+          <p>Capitulum nonum qualiter pars septemtrionalis meridiolanem attrahat et e converso</p>
+          <p>
+            <lb ed="#V"/>Pars autem septemtrionalis lapidis meridiolanem attrahit et e converso ut dictum est in cuius
+            attractione lapis fortioris virtutis agens est debilioris vero patiens Huius autem rei causam per hanc
+            viam fieri existimo Agens enim interdit suum patiens non solum sibi assimilare sed unire ut ex
+            agente et patiente fiat unum per naturam Et hoc potest experiri in isto lapide mirabili in hunc
+            modum</p>
+          <p>Sume lapidem unum quem fingas AD in quo sit A septemtrionale D vero meridionale et ipsum in
+            duas partes divide ut fiant duo lapides ex eo Postea lapidem quem A tenet aquae exponas ut
+            fluctuet Videbis quod A vertetur ad septemtrionalem ut prius fractura enim non tollit proprietates
+            partium lapidis cum lapis sit unigeneus Et sic oportet quod pars huius lapidis in ipsa fractura quae
+            sit B meridionali existat Hic ergo lapis de quo nunc dictum est fingatur AB De reliquo etiam
+            lapide quem D tenet si aquae exponatur videbis quod D erit meridionale ut primo quia vertetur ad
+            meridiem si aquae exponatur Pars vero reliqua ex parte fracturae septemtrionalis erit que sit C
+            Erit ergo iste lapis CD Primus lapis AB sit agens CD patiens sicque vides quod duae partes
+            duorum lapidum quae ante separationem in uno lapide erant continuae post separationem una
+            invenitur septemtrionalis alia meridionalis Quod si rursus eaedem partes approximentur una
+            alteram attrahet quousque sibi iungatur in puncto BC ubi fractura fuit Unde quantum est de
+            naturali appetitu fies unum corpus ut primo Cuius signum est si illic caementetur eandem
+            operationem quam primo exercebit Agens ergo ut vides experimento intendit suum patiens sibi
+            unire Hoc autem fit ratione similitudinis inter ea Oportet ergo cum B iungatur C virtute actionis
+            fiat una linea ex agente et patiente secundum hunc ordinem ABCD ut BC sint punctum unum I hac
+            enim unione retinetur seu salvatur identitas partium extremarum in similitudine qua erant primo A
+            enim septemtrionale est in tota linea sicut erat in divisa Eodem modo D meridionale sicut erat in
+            ipso patiente diviso sic est enim in ipso unito BC vero efficitur idemEt eodem modo accidit si A
+            iungatur cum D ut duae lineae fiant una virtute unionis ipsius actionis secundum hunc ordinem
+            CDAB ut DA sint unum punctum Tunc remanebit identitas partium extremarum sicut primo
+            antequam unirentur C namque punctus septemionalis erit B vero meridionalis sicut prius dum
+            erant divisi</p>
+          <p>Si autem fieret aliter non salveretur haec identitas seu similitudo partium Vides enim quod si C
+            iungatur cum A quod est contra expertam veritatem ut ex illis duabus lineis fiat una linea
+            secundum hunc ordinem BACD ut AC sint in puncto uno D quod erat meridionale antequam
+            unirentur requiritur in hac linea totali quod B reliqua extremitas sit septemtrionale prius tamen erat
+            meridionale Ecce dissipatur identitas seu similitudo prior Vel si ponas B meridionale sicut erat
+            antequam unirentur requiretur quod D altera pars septemtrionalis existat cum tamen fuisset
+            meridionalis et sic ibi non servatur identitas nec similitudo Oportet enim quod illud quod iam
+            conversum est ex duabus in unum sit in eadem specie cum agente quod sic non esset si natura
+            istud impossibile eligeret Idem autem inconveniens accidet si iungas D cum B ut fiat una linea
+            secundum hunc ordinem ABDC ut patet intuenti Natura ergo quae tendit ad esse et agit meliori
+            modo quo potest eligit primum ordinem actionis in quo melius salvatur identitas quam in secundo
+            Patet ergo ex his quare meridionalis septemtrionalem attrahit et e converso et quare meridionalis
+            meridionalem et septemtrionalis septemtrionalem nequaquam per naturam</p>
+        </div>
+        <div>
+          <head>Caput 10</head>
+          <head type="question-title">De inquisitione unde magnes virtutem naturalem, quam habet, recipiat</head>
+          <p></p>
+          <p>Capitulum decimum de inquisitione unde magnes virtutem naturalem quam habet recipiat</p>
+          <p>
+            <lb ed="#V"/>Quidam autem debiles inquisitores opinati sunt quod virtus qua agit magnes in ferrum sit a locis
+            mineralibus in quibus magnes invenitur Unde dicunt quod licet ferrum ad polos mundi moveatur
+            hoc tamen non est nisi quia minera lapidis in illis partibus situatur</p>
+          <p>Isti autem ignorant quod in diversis mundi partibus lapis dictus invenitur ex quo sequitur quod ad
+            diversa mundi loca moveretur quod falsum est Et rursus ignorant quod locus sub polis sit
+            inhabitabilis eo quod medietas anni sit ibi dies et medietas nox quare ab illis locis ad nos posse
+            portari magnetem fatuum est aestimare Praeterea cum ferrum vel lapis vertatur tam ad partem
+            meridionalem quam ad septemtrionalem ut patet per iam dicta aestimare cogimur non solum a
+            parte septemtrionali verum etiam a meridionali virtutem influi in polis lapidis magis quam a locis
+            minerae Cuius signum evidens est quod ubicumque homo fuerit videt ad oculum huius lapidis
+            motum secundum situm sui orbis meridiani Omnes autem orbes meridiani in polis mundi
+            concurrunt quare a polis mundi poli magnetis virtutem recipiunt Et ex hoc apparet manifeste quod
+            non ad stellam nauticam movetur cum ibi non concurrant orbes meridiani sed in polis Stella enim
+            nautica extra orbem meridianum cuiuslibet regionis semper invenitur nisi bis in completa
+            firmamenti revolutione</p>
+          <p>Ex his ergo manifestum est quod a partibus caeli partes magnetis virtutem recipiunt Ceteras
+            autem partes lapidis merito aestimare potes influentiam a reliquis caeli partibus retinere ut non sic
+            solum polos lapidis a polis mundi sed totum lapidem a toto caelo recipere influentiam et virtutem
+            aestimes Quod tibi tali modo consulo experiri</p>
+          <p>Rotundetur lapis et inveniantur poli in eo et post dispone super duos stilos acutos lapidem ita
+            quod cuilibet polo unus sit stilus leviter affixus in suo puncto in lapide ut lapis sine difficultate
+            super eos possit moveri Quo facto experiaris si lapidis partes aequaliter ponderent volvendo
+            ipsum leviter super dictos stilos Et hoc pluries et in pluribus horis diei facies sagaci industria Quo
+            facto lapidem dispone in orbe meridiano super suos stilos leviter in polis lapidis affixos ut
+            moveatur ad modum armillarum ita quod polorum ipsius elevatio et depressio sit secundum
+            elevationem et depressionem polorum caeli in regione in qua fueris Quod si tunc lapis moveatur
+            secundum caeli motum gaudeas te esse assecutum secretum mirabile Si vero non imperitiae tuae
+            potius quam naturae defectui imputetur In hoc autem situ seu modo positionis virtutes huius lapidis
+            aestimo proprie conservari et in reliquis sitibus caeli virtutem eius hebetari potius quam conservari
+            puto</p>
+          <p>Per hoc autem instrumentum excusaberis ab omni horologio Nam per ipsum scire poteris
+            ascendens in quacumque hora volueris et omnes alias caeli dispositiones quas quaerunt astrologi
+          </p>
+        </div>
+      </div>
+      
+      
+    </body>
+  </text>
+</TEI>
