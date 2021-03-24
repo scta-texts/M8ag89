@@ -145,7 +145,7 @@
             <lb ed="#V"/>formam praesens figura demonstrat
           </p>
           <p xml:id="M8ag89-d1e68-d1e299">
-            <lb ed="#V"/><graphic url="https://gist.githubusercontent.com/jeffreycwitt/61ef1f6ed92e3e05c4a11d3158027af1/raw/28e3b9cfe008bc2b88a132b86da73b01f187284d/cod-x998da_M8ag89-figure1demo.svg"><desc>Figure</desc></graphic>
+            <lb ed="#V"/><graphic xml:id="M8ag89-d1e68-Gvnhuf8" url="https://gist.githubusercontent.com/jeffreycwitt/61ef1f6ed92e3e05c4a11d3158027af1/raw/28e3b9cfe008bc2b88a132b86da73b01f187284d/cod-x998da_M8ag89-figure1demo.svg"><desc>Figure</desc></graphic>
           </p>
         </div>
         <div xml:id="M8ag89-d1e68-Dd1e306">
@@ -211,8 +211,7 @@
           </p>
           <p xml:id="M8ag89-d1e68-d1e438">
             <cb ed="#V" n="a"/>
-            <lb ed="#V"/>
-            <graphic url="https://gist.githubusercontent.com/jeffreycwitt/462fbe4216a86c02ea7dae25f8c96d30/raw/8f4442fe4b964cde2240383342cd4818eecf5c63/cod-x998da_M8ag89-d1e68_figure2.svg"><desc>Figure</desc></graphic>
+            <lb ed="#V"/><graphic url="https://gist.githubusercontent.com/jeffreycwitt/462fbe4216a86c02ea7dae25f8c96d30/raw/8f4442fe4b964cde2240383342cd4818eecf5c63/cod-x998da_M8ag89-d1e68_figure2.svg"><desc>Figure</desc></graphic>
             
           </p>
         </div>
