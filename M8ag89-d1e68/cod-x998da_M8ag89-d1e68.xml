@@ -317,7 +317,9 @@
             <lb ed="#V" n="55"/>Explicit sequitur <unclear>fi?a</unclear>
           </p>
           <p xml:id="M8ag89-d1e68-d1e561">
-            <lb ed="#V" n="56"/><graphic xml:id="M8ag89-d1e68-Gcn48nn" url="http://exist.scta.info/exist/apps/scta-data/M8ag89/M8ag89-d1e68/cod-x998da_M8ag89-d1e68-Gcn48nn.svg"><desc>Figure</desc></graphic>
+            <lb ed="#V" n="56"/><graphic xml:id="M8ag89-d1e68-Gcn48nn" url="http://exist.scta.info/exist/apps/scta-data/M8ag89/M8ag89-d1e68/cod-x998da_M8ag89-d1e68-Gcn48nn.svg">
+              <desc>Figure</desc>
+            </graphic>
             <!-- no parallel picture matching Augsburg 1558 -->
           </p>
         </div>
