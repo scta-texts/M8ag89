@@ -127,7 +127,7 @@
           <p xml:id="M8ag89-d1e68-d1e299">
             <lb ed="#Va" n="12"/><graphic xml:id="M8ag89-d1e68-Gvnhuf8" url="https://exist.scta.info/exist/apps/scta-data/M8ag89/M8ag89-d1e68/cod-cn8881_M8ag89-d1e68-Gvnhuf8.svg">
               <desc>Figure</desc>
-              <note type="words">
+              <!--<note type="words">
                 Text: West North
                 Shapes: 
                 Colors: 
@@ -137,7 +137,7 @@
                 Perspectiven
                 What objects are represented, etc.
                 
-              </note>
+              </note>-->
             </graphic>
           </p>
         </div>
