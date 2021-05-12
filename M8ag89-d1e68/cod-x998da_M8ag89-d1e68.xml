@@ -1,4 +1,8 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- schema somehow preventing use of figure element within p -->
+<!--<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>-->
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -147,7 +151,24 @@
             <lb ed="#V" n="61"/>formam praesens figura demonstrat
           </p>
           <p xml:id="M8ag89-d1e68-d1e299">
-            <lb ed="#V" n="62"/><graphic xml:id="M8ag89-d1e68-Gvnhuf8" url="https://gist.githubusercontent.com/jeffreycwitt/61ef1f6ed92e3e05c4a11d3158027af1/raw/28e3b9cfe008bc2b88a132b86da73b01f187284d/cod-x998da_M8ag89-figure1demo.svg"><desc>Figure</desc></graphic>
+            <lb ed="#V" n="62"/>
+            <figure xml:id="M8ag89-d1e68-Fvnhuf8">
+              <!-- figure 1 -->
+              <graphic url="https://exist.scta.info/exist/apps/scta-data/M8ag89/M8ag89-d1e68/figures/cod-x998da_M8ag89-d1e68-Fcn48nn.svg">
+                <!--https://exist.scta.info/exist/apps/scta-data/M8ag89/M8ag89-d1e68-->
+              </graphic>
+              <ab type="figure-details">
+                <!-- figure details are intended for metadata collection; not for display -->
+                <seg type="figure-text">figure 1 in cod-x998da</seg>
+                <seg type="figure-ideas">
+                  compass
+                </seg>
+              </ab>
+              <figDesc>
+                <!-- editor supplied description for accessibility etc -->
+                A compass figure 1 in cod-x998da
+              </figDesc>
+            </figure>
           </p>
         </div>
         <div xml:id="M8ag89-d1e68-Dd1e306">
@@ -212,9 +233,25 @@
             <lb ed="#V" n="43"/>instrumenti iam dicti descriptio
           </p>
           <p xml:id="M8ag89-d1e68-d1e438">
-            <cb ed="#V" n="a"/>
-            <lb ed="#V" n="44"/><graphic url="https://gist.githubusercontent.com/jeffreycwitt/462fbe4216a86c02ea7dae25f8c96d30/raw/8f4442fe4b964cde2240383342cd4818eecf5c63/cod-x998da_M8ag89-d1e68_figure2.svg"><desc>Figure</desc></graphic>
-            
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="44"/>
+            <figure xml:id="M8ag89-d1e68-Fcan28a">
+              <!-- figure 2 -->
+              <graphic url="https://exist.scta.info/exist/apps/scta-data/M8ag89/M8ag89-d1e68/figures/cod-x998da_M8ag89-d1e68-Fcan28a.svg">
+                <!--https://exist.scta.info/exist/apps/scta-data/M8ag89/M8ag89-d1e68-->
+              </graphic>
+              <ab type="figure-details">
+                <!-- figure details are intended for metadata collection; not for display -->
+                <seg type="figure-text">figure 2 in cod-x998da</seg>
+                <seg type="figure-ideas">
+                  compass
+                </seg>
+              </ab>
+              <figDesc>
+                <!-- editor supplied description for accessibility etc -->
+                A compass figure 2 in cod-x998da
+              </figDesc>
+            </figure>
           </p>
         </div>
         <div xml:id="M8ag89-d1e68-Dd1e448">
@@ -317,10 +354,25 @@
             <lb ed="#V" n="55"/>Explicit sequitur <unclear>fi?a</unclear>
           </p>
           <p xml:id="M8ag89-d1e68-d1e561">
-            <lb ed="#V" n="56"/><graphic xml:id="M8ag89-d1e68-Gcn48nn" url="http://exist.scta.info/exist/apps/scta-data/M8ag89/M8ag89-d1e68/cod-x998da_M8ag89-d1e68-Gcn48nn.svg">
-              <desc>Figure</desc>
-            </graphic>
-            <!-- no parallel picture matching Augsburg 1558 -->
+            <lb ed="#V" n="56"/>
+            <figure xml:id="M8ag89-d1e68-Fcn48nn">
+              <!-- figure 3 -->
+              <graphic url="https://exist.scta.info/exist/apps/scta-data/M8ag89/M8ag89-d1e68/figures/cod-x998da_M8ag89-d1e68-Fcn48nn.svg">
+                <!--https://exist.scta.info/exist/apps/scta-data/M8ag89/M8ag89-d1e68-->
+              </graphic>
+              <ab type="figure-details">
+                <!-- figure details are intended for metadata collection; not for display -->
+                <seg type="figure-text">figure 3 in cod-x998da</seg>
+                <seg type="figure-ideas">
+                  compass
+                </seg>
+              </ab>
+              <figDesc>
+                <!-- editor supplied description for accessibility etc -->
+                A compass figure 3 in cod-x998da
+              </figDesc>
+            </figure>
+            
           </p>
         </div>
       </div>

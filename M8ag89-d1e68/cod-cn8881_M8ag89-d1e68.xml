@@ -1,4 +1,13 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  schema is preventing "figure" from being used inside p; which is not a problem. 
+  the ODD itself doesn't seem to rule this out. 
+  Perhaps it was building with an older version of TEI when figure was not allowed inside a p
+  
+  <?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+  <?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+-->
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -123,22 +132,26 @@
             et asscenssiones et cuncta quae oportet secundum 
             <lb ed="#Va" n="10"/>doctrinam astrolabii complete huius autem instrumenti 
             <lb ed="#Va" n="11"/>formam praesens doctrina demonstrat
+            
           </p>
           <p xml:id="M8ag89-d1e68-d1e299">
-            <lb ed="#Va" n="12"/><graphic xml:id="M8ag89-d1e68-Gvnhuf8" url="https://exist.scta.info/exist/apps/scta-data/M8ag89/M8ag89-d1e68/cod-cn8881_M8ag89-d1e68-Gvnhuf8.svg">
-              <desc>Figure</desc>
-              <!--<note type="words">
-                Text: West North
-                Shapes: 
-                Colors: 
-                Wie (painted, pencile, woodcut, etc) 
-                active/interactive
-                Wo (mit den text, allein) 
-                Perspectiven
-                What objects are represented, etc.
-                
-              </note>-->
-            </graphic>
+            <lb ed="#Va" n="12"/>
+            <figure xml:id="M8ag89-d1e68-Fvnhuf8">
+              <graphic url="https://exist.scta.info/exist/apps/scta-data/M8ag89/M8ag89-d1e68/figures/cod-cn8881_M8ag89-d1e68-Fvnhuf8.svg">
+                <!--http://exist.scta.info/exist/apps/scta-data/M8ag89/M8ag89-d1e68-->
+              </graphic>
+              <ab type="figure-details">
+                <!-- figure details are intended for metadata collection; not for display -->
+                <seg type="figure-text">north south east west</seg>
+                <seg type="figure-ideas">
+                  polarity, instrument, compass, square-of-opposition, vision, eyes
+                </seg>
+              </ab>
+              <figDesc>
+                <!-- editor supplied description for accessibility etc -->
+                A compass
+              </figDesc>
+            </figure>
           </p>
         </div>
         <div xml:id="M8ag89-d1e68-Dd1e306">
@@ -191,7 +204,23 @@
             <lb ed="#Va" n="52"/>descriptio subscripta: 
           </p>
           <p xml:id="M8ag89-d1e68-d1e438">
-            <lb ed="#Va" n="53"/><graphic xml:id="M8ag89-d1e68-Gcan28a" url="http://exist.scta.info/exist/apps/scta-data/M8ag89/M8ag89-d1e68/cod-cn8881_M8ag89-d1e68-Gcan28a.svg"><desc>Figure</desc></graphic>
+            <lb ed="#Va" n="53"/>
+            <figure xml:id="M8ag89-d1e68-Fcan28a">
+              <graphic url="https://exist.scta.info/exist/apps/scta-data/M8ag89/M8ag89-d1e68/figures/cod-cn8881_M8ag89-d1e68-Fcan28a.svg">
+                <!--https://exist.scta.info/exist/apps/scta-data/M8ag89/M8ag89-d1e68-->
+              </graphic>
+              <ab type="figure-details">
+                <!-- figure details are intended for metadata collection; not for display -->
+                <seg type="figure-text">test 2</seg>
+                <seg type="figure-ideas">
+                  compass
+                </seg>
+              </ab>
+              <figDesc>
+                <!-- editor supplied description for accessibility etc -->
+                A compass
+              </figDesc>
+            </figure>
           </p>
         </div>
         <div xml:id="M8ag89-d1e68-Dd1e448">
@@ -265,7 +294,23 @@
             <lb ed="#Va" n="53"/>Explicit libellus de magnete:
           </p>
           <p xml:id="M8ag89-d1e68-d1e561">
-            <lb ed="#Va" n="54"/><graphic xml:id="M8ag89-d1e68-Gcn48nn" url="http://exist.scta.info/exist/apps/scta-data/M8ag89/M8ag89-d1e68/cod-cn8881_M8ag89-d1e68-Gcn48nn.svg"><desc>Figure</desc></graphic>
+            <lb ed="#Va" n="54"/>
+            <figure xml:id="M8ag89-d1e68-Fcn48nn">
+              <graphic url="https://exist.scta.info/exist/apps/scta-data/M8ag89/M8ag89-d1e68/figures/cod-cn8881_M8ag89-d1e68-Fcn48nn.svg">
+                <!--https://exist.scta.info/exist/apps/scta-data/M8ag89/M8ag89-d1e68-->
+              </graphic>
+              <ab type="figure-details">
+                <!-- figure details are intended for metadata collection; not for display -->
+                <seg type="figure-text">test 3</seg>
+                <seg type="figure-ideas">
+                  compass
+                </seg>
+              </ab>
+              <figDesc>
+                <!-- editor supplied description for accessibility etc -->
+                A compass
+              </figDesc>
+            </figure>
           </p>
         </div>
       </div>

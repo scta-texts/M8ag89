@@ -1,4 +1,8 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- schema preventing valid use of figure element
+  <?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>-->
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -131,7 +135,24 @@
           </p>
           <p xml:id="M8ag89-d1e68-d1e299">
             <pb ed="#A" n="40"/>
-            <lb ed="#A" n="1"/><graphic xml:id="M8ag89-d1e68-Gvnhuf8" url="https://exist.scta.info/exist/apps/scta-data/M8ag89/M8ag89-d1e68/cod-Zvn098_M8ag89-d1e68-Gvnhuf8.svg"><desc>Figure</desc></graphic>
+            <lb ed="#A" n="1"/>
+            <figure xml:id="M8ag89-d1e68-Fvnhuf8">
+              <!-- figure 1 -->
+              <graphic url="https://exist.scta.info/exist/apps/scta-data/M8ag89/M8ag89-d1e68/figures/cod-Zvn098_M8ag89-d1e68-Fvnhuf8.svg">
+                <!--https://exist.scta.info/exist/apps/scta-data/M8ag89/M8ag89-d1e68-->
+              </graphic>
+              <ab type="figure-details">
+                <!-- figure details are intended for metadata collection; not for display -->
+                <seg type="figure-text">figure 1 in cod-Zvn098</seg>
+                <seg type="figure-ideas">
+                  compass
+                </seg>
+              </ab>
+              <figDesc>
+                <!-- editor supplied description for accessibility etc -->
+                A compass figure 1 in cod-Zvn098
+              </figDesc>
+            </figure>
           </p>
         </div>
         <div xml:id="M8ag89-d1e68-Dd1e306">
@@ -142,8 +163,6 @@
             <lb ed="#A" n="4"/>dem officii. 
           </p>
           <p xml:id="M8ag89-d1e68-d1e318">
-            
-            
             <lb ed="#A" n="5"/>In hoc autem capite dicemus tibi modum com¬ 
             <lb ed="#A" n="6"/>positionis alterius instrumenti melioris &amp; certi¬ 
             <lb ed="#A" n="7"/>oris effectus. Fiat vas ligneum, vel aeneum, vel cu¬ 
@@ -192,7 +211,24 @@
             <lb ed="#A" n="6"/>picta est.
           </p>
           <p xml:id="M8ag89-d1e68-d1e438">
-            <lb ed="#A" n="7"/><graphic url="http://exist.scta.info/exist/apps/scta-data/M8ag89/M8ag89-d1e68/cod-Zvn098_M8ag89-d1e68-Gcan28a.svg"><desc>Figure</desc></graphic>
+            <lb ed="#A" n="7"/>
+            <figure xml:id="M8ag89-d1e68-Fcan28a">
+              <!-- figure 2 -->
+              <graphic url="https://exist.scta.info/exist/apps/scta-data/M8ag89/M8ag89-d1e68/figures/cod-Zvn098_M8ag89-d1e68-Fcan28a.svg">
+                <!--https://exist.scta.info/exist/apps/scta-data/M8ag89/M8ag89-d1e68-->
+              </graphic>
+              <ab type="figure-details">
+                <!-- figure details are intended for metadata collection; not for display -->
+                <seg type="figure-text">figure 2 in cod-Zvn098</seg>
+                <seg type="figure-ideas">
+                  compass
+                </seg>
+              </ab>
+              <figDesc>
+                <!-- editor supplied description for accessibility etc -->
+                A compass figure 2 in cod-Zvn098
+              </figDesc>
+            </figure>
             <lb ed="#A" n="8"/>Totum cooperculum fit de crystallo vel simili materia trans¬ 
             <lb ed="#A" n="9"/>parente, ut limbum A. B. C. D. contineat, Limbus vero hanc 
             <lb ed="#A" n="10"/>totam superficiem continens, videlicet F. G. H. I., est circulus 
@@ -279,7 +315,24 @@
             <lb ed="#A" n="4"/>diagramma commonstrat.
           </p>
           <p xml:id="M8ag89-d1e68-d1e561">
-            <lb ed="#A" n="5"/> <graphic url="http://exist.scta.info/exist/apps/scta-data/M8ag89/M8ag89-d1e68/cod-Zvn098_M8ag89-d1e68-Gcn48nn.svg"><desc>Figure</desc></graphic>
+            <lb ed="#A" n="5"/>
+            <figure xml:id="M8ag89-d1e68-Gcn48nn">
+              <!-- figure 3 -->
+              <graphic url="https://exist.scta.info/exist/apps/scta-data/M8ag89/M8ag89-d1e68/figures/cod-Zvn098_M8ag89-d1e68-Gcn48nn.svg">
+                <!--https://exist.scta.info/exist/apps/scta-data/M8ag89/M8ag89-d1e68-->
+              </graphic>
+              <ab type="figure-details">
+                <!-- figure details are intended for metadata collection; not for display -->
+                <seg type="figure-text">figure 3 in cod-Zvn098</seg>
+                <seg type="figure-ideas">
+                  compass
+                </seg>
+              </ab>
+              <figDesc>
+                <!-- editor supplied description for accessibility etc -->
+                A compass figure 3 in cod-Zvn098
+              </figDesc>
+            </figure>
           </p>
         </div>
       </div>
