@@ -170,7 +170,7 @@
             <!--00000024.xml-->
             <pb ed="#O" n="191-v"/>
             <lb ed="#O" n="1"/>Della compositione di un'altro migliore instro¬ 
-            <lb ed="#O" n="2"/>mento per luso medesimo capitolo. 2.
+            <lb ed="#O" n="2" break="no"/>mento per luso medesimo capitolo. 2.
           </p>
           <p xml:id="M8ag89-d1e68-d1e318">
             <lb ed="#O" n="3"/>In questo capitolo ti diremo il modo della compositione di 
