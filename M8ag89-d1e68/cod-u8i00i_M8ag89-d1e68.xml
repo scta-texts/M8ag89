@@ -1,0 +1,355 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- schema preventing valid use of figure element
+  <?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>-->
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Pars 2 [ONB lat. 5969]</title>
+        <author ref="#per-PePeMa">Petrus Peregrinus de Maricourt</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Pars 2 [ONB lat. 5969]</title>
+          <date when="2021-05-31">May 31, 2021</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref></p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="O" n="cod-u8i00i">ONB lat. 5969</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0 
+          guidelines for a diplomatic edition.
+        </p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2021-05-31" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>  
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#O" n="189-v"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="M8ag89-d1e68">
+        <head xml:id="M8ag89-d1e68-Hd1e106">Pars 2</head>
+        <div xml:id="M8ag89-d1e68-Dd1e109">
+          <head xml:id="M8ag89-d1e68-Hd1e111">Caput 1</head>
+          <head xml:id="M8ag89-d1e68-Hd1e114" type="quesiton-title">De compositione instrumenti, quo scitur azimuth solis et lunae
+            et cuiuslibet stellae in horizonte.</head>
+          <p xml:id="M8ag89-d1e68-d1e117">
+            <lb ed="#O" n="12"/>Parte seconda. 
+            <lb ed="#O" n="13"/>Della compositione dell'instrumento col 
+            <lb ed="#O" n="14"/>quale si sa l'Azimut del sole et della 
+            <lb ed="#O" n="15"/>luna, et di ciascuna stella nell'orizonte. 
+          </p>
+          <p xml:id="M8ag89-d1e68-d1e124">
+            <lb ed="#O" n="16"/>Veduto le operationi manuali della calamita, andiamo 
+            <lb ed="#O" n="17"/>à gli ingegni et instrumenti, li quali depe¬ 
+            <lb ed="#O" n="18"/>ndono della cognitione della operatione sua 
+            <lb ed="#O" n="19"/>naturale.
+          </p>
+          <p xml:id="M8ag89-d1e68-d1e137">
+            Prendasi dunque la calamita rotu¬ 
+            <lb ed="#O" n="20"/>nda, et siano, come è detto, ritrovati i poli; et 
+            <lb ed="#O" n="21"/>sia limata fra due poli in due parti, acciò che 
+            <!--00000021.xml-->
+            <pb ed="#O" n="190-r"/>
+            <cb ed="#O" n=""/>
+            <lb ed="#O" n="1"/>la calamita sia come una sphera compresa tra due 
+            <lb ed="#O" n="2"/>poli, afin che ocupi loco minore. Questa pietra cosi 
+            <lb ed="#O" n="3"/>apparechiata posta trà due cassete, fatte come una 
+            <lb ed="#O" n="4"/>casseta di specchio, si serri in mezo, et le cassette l'una 
+            <lb ed="#O" n="5"/>all'altra fra loro in modo si congiongano, che più non 
+            <lb ed="#O" n="6"/>si aprano, ne vi entri l'aqua siano apparecchiate le 
+            <lb ed="#O" n="7"/>cassette con cola atta à questo, et siano queste casette 
+            <lb ed="#O" n="8"/>di legno leggiero fatto questo, metti le cassette cosi 
+            <lb ed="#O" n="9"/>accommodate in uno vaso grande pieno di aqua, 
+            <lb ed="#O" n="10"/>nel quale siano ritrovate, et segnate le due parti 
+            <lb ed="#O" n="11"/>del mondo, cioè di ostro, et di tramontana, le 
+            <lb ed="#O" n="12"/>quali siano disegnate per un filo disteso dalla parte 
+            <lb ed="#O" n="13"/>di tramontana del vaso, fin alla parte di ostro 
+            <lb ed="#O" n="14"/>lascia dunque le cassette nottare, et sia sopra 
+            <lb ed="#O" n="15"/>loro un legno sottile come diametro. Movi dunque 
+            <lb ed="#O" n="16"/>quel legno sopra le cassette fin, che alla linea di 
+            <lb ed="#O" n="17"/>ostro prima ritrovata, et per lo filo segnata sia, 
+            <lb ed="#O" n="18"/>egualmente distante, overo una medesima con 
+            <lb ed="#O" n="19"/>lei. fatto questo, secondo il sito di quel legno 
+            <lb ed="#O" n="20"/>posto, segna la linea nelle cassette, et sara 
+            <lb ed="#O" n="21"/>sempre la linea meridiana in quella, et in 
+            <lb ed="#O" n="22"/>ogni altra regione. Questa linea ad unque da 
+            <lb ed="#O" n="23"/>un'altra, che la taglierà ad angoli retti, si divida  
+            <!--00000022.xml-->
+            <pb ed="#O" n="190-v"/>
+            <cb ed="#O" n=""/>
+            <lb ed="#O" n="1"/>per mezo, et sara la linea dell'oriente, et dell'occidente; 
+            <lb ed="#O" n="2"/>et cosi haverai nelle cassette quattro quarte segnate, 
+            <lb ed="#O" n="3"/>le quali dissegnaranno le quatro quarte del mondo, 
+            <lb ed="#O" n="4"/>ciascuna delle quali si deve dividere in 90 parti, 
+            <lb ed="#O" n="5"/>tal che siano tutte 360 in tutta la circonferenza 
+            <lb ed="#O" n="6"/>delle cassette, et scrivile le parti in lei, come si 
+            <lb ed="#O" n="7"/>costumano scrivere nel dorso dello astrolabio: sarra 
+            <lb ed="#O" n="8"/>di più una riga sottile, et leggiera sopra le cassette 
+            <lb ed="#O" n="9"/>cosi scritte, et notate, la qual riga sia come quella, 
+            <lb ed="#O" n="10"/>che si pone sopra il dorso dello astrolabio: ma in 
+            <lb ed="#O" n="11"/>loco di pinnule, overo alette, si dirizzino ad angoli 
+            <lb ed="#O" n="12"/>retti due stili sopra i capi della riga 
+          </p>
+          <p xml:id="M8ag89-d1e68-d1e251">
+            se dunque 
+            <lb ed="#O" n="13"/>vorai havere l'Azimut del sole di giorno, poni 
+            <lb ed="#O" n="14"/>le cassette nell'aqua, et lasciale movere fin tanto 
+            <lb ed="#O" n="15"/>che si fermano à suo loco, et cosi tienle ferme con 
+            <lb ed="#O" n="16"/>una mano, et con l'altra movi la riga fin tanto, 
+            <lb ed="#O" n="17"/>che l'ombra del stilo cada secondo la sua longheza, 
+            <lb ed="#O" n="18"/>et alhora il capo della riga dalla parte del 
+            <lb ed="#O" n="19"/>sole mostrera l'Azimut di esso sole. Ma se 
+            <lb ed="#O" n="20"/>egli sara vinto siano coperte le cassette con qualche 
+            <lb ed="#O" n="21"/>vaso fin tanto, che prendano il sito suo. Ma di 
+            <lb ed="#O" n="22"/>notte farai il medesimo, movendo prima la riga 
+            <!--00000023.xml-->
+            <pb ed="#O" n="191-r"/>
+            <cb ed="#O" n=""/>
+            <lb ed="#O" n="1"/>fin tanto essa tocchi le cime de i stili, et la luna, 
+            <lb ed="#O" n="2"/>overo la stella sia nella medesima linea, percio che la 
+            <lb ed="#O" n="3"/>lima della riga mostrera il suo Azimut, come prim¬ 
+            <lb ed="#O" n="4"/>ieramente nel sole. Conoscerai poscia le ore per via 
+            <lb ed="#O" n="5"/>del Azimut, et lo ascendente, et le ascensioni, et tutte  
+            <lb ed="#O" n="6"/>le cose, che bisognano eseguire secondo la dottrina dello 
+            <lb ed="#O" n="7"/>astrolabio. La forma di questo instrumento è mostra¬ 
+            <lb ed="#O" n="8"/>ta nella seguente figura.
+          </p>
+          <p xml:id="M8ag89-d1e68-d1e299">
+            <pb ed="#A" n="196-r"/>
+            <lb ed="#A" n="1"/>
+            <figure xml:id="M8ag89-d1e68-Fvnhuf8">
+              <!-- figure 1 -->
+              <graphic url="https://exist.scta.info/exist/apps/scta-data/M8ag89/M8ag89-d1e68/figures/cod-u8i00i_M8ag89-d1e68-Fvnhuf8.svg">
+                <!--https://exist.scta.info/exist/apps/scta-data/M8ag89/M8ag89-d1e68-->
+              </graphic>
+              <ab type="figure-details">
+                <!-- figure details are intended for metadata collection; not for display -->
+                <seg type="figure-text">figure 1 in cod-u8i00i8</seg>
+                <seg type="figure-ideas">
+                  compass
+                </seg>
+              </ab>
+              <figDesc>
+                <!-- editor supplied description for accessibility etc -->
+                A compass figure 1 in cod-u8i00i
+              </figDesc>
+            </figure>
+          </p>
+        </div>
+        <div xml:id="M8ag89-d1e68-Dd1e306">
+          <head xml:id="M8ag89-d1e68-Hd1e308">Caput 2</head>
+          <p xml:id="M8ag89-d1e68-d1e311">
+            <!--00000024.xml-->
+            <pb ed="#O" n="191-v"/>
+            <lb ed="#O" n="1"/>Della compositione di un'altro migliore instro¬ 
+            <lb ed="#O" n="2"/>mento per luso medesimo capitolo. 2.
+          </p>
+          <p xml:id="M8ag89-d1e68-d1e318">
+            <lb ed="#O" n="3"/>In questo capitolo ti diremo il modo della compositione di 
+            <lb ed="#O" n="4"/>uno strumento migliore, et di più certo effetto. Sia 
+            <lb ed="#O" n="5"/>fatto un vaso di legno, overo di metallo, overo da 
+            <lb ed="#O" n="6"/>qual si vogliaaltra matteria sola, et sia fatto al torno 
+            <lb ed="#O" n="7"/>à modo di un cattino, poco profondo, et sia ampio 
+            <lb ed="#O" n="8"/>convenevolmente, et sopra di lui sia posto il coperchio, 
+            <lb ed="#O" n="9"/>fatto di materia transparente, come è il vetro, overo 
+            <lb ed="#O" n="10"/>il cristallo, et se tutto il vaso sarà sia commodato 
+            <lb ed="#O" n="11"/>nel mezo di questo vaso un'asse sottile di metallo, 
+            <lb ed="#O" n="12"/>overo di argento, che ponga le estremità sue alle 
+            <lb ed="#O" n="13"/>due parti del catino, cio è di sopra, et di sotto. et 
+            <lb ed="#O" n="14"/>siano dui fori nel mezo dell'asse, i quali si guardino 
+            <lb ed="#O" n="15"/>ad angoli retti, et passi uno stillo di ferro, come un' 
+            <lb ed="#O" n="16"/>ago, per l'uno di quei fori, et per l'altro passi un'altro 
+            <lb ed="#O" n="17"/>stillo di metallo, ò di argento, che tagli il ferro 
+            <lb ed="#O" n="18"/>ad angoli retti: et il coperchio primieramente sia 
+            <lb ed="#O" n="19"/>diviso in quatro quarte, et ciascuna di loro in 
+            <lb ed="#O" n="20"/>90 parti, come si diceva, nel primo instrumento, 
+            <lb ed="#O" n="21"/>et si segni si in lui l'ostro, la tramontana, il levante, 
+            <lb ed="#O" n="22"/>et il ponente, come, conviene, et vi si aggiunga la 
+            <!--00000025.xml-->
+            <pb ed="#O" n="192-r"/>
+            <cb ed="#O" n=""/>
+            <lb ed="#O" n="1"/>la riga fatta di materia lucida, et trasparente con li 
+            <lb ed="#O" n="2"/>suoi stili dirizzati nelle cime. Al'hora approssima qual 
+            <lb ed="#O" n="3"/>parte della calamita voi ò la di ostro, ò di tramontana 
+            <lb ed="#O" n="4"/>al cristallo, fin tanto che l'ago si mova ad essa, et da 
+            <lb ed="#O" n="5"/>essa riceva virtù. Fatto questo, volgi il catino fin 
+            <lb ed="#O" n="6"/>tanto, che una delle sue cime sara al dirito di tra¬ 
+            <lb ed="#O" n="7"/>montana nell'instrumento dalla parte di tramontana. 
+            <lb ed="#O" n="8"/>Fatto questo volgi la riga al sole di giorno, overo 
+            <lb ed="#O" n="9"/>alla luna, overo alle stelle di notte nel modo sopra¬ 
+            <lb ed="#O" n="10"/>detto. 
+          </p>
+          <p xml:id="M8ag89-d1e68-d1e416">
+            Per questo instrumento drizzarai similmente 
+            <lb ed="#O" n="11"/>il tuo camino alle città, alle isole, et dovunque 
+            <lb ed="#O" n="12"/>vorrai ò in terra, ò in mare, se pero le longhezze, et le  
+            <lb ed="#O" n="13"/>larghezze delle vie, et delle regioni ti siano manifeste. Hor 
+            <lb ed="#O" n="14"/>per qual cagione il ferro stia in aere mediante la virtù 
+            <lb ed="#O" n="15"/>di questa pietra narreremo nel libro delle operazioni 
+            <lb ed="#O" n="16"/>di spechi; et questa è la discrittione della già detta pietra 
+            <lb ed="#O" n="17"/>instrumentale, come è qui dissegnata.
+          </p>
+          <p xml:id="M8ag89-d1e68-d1e438">
+            <lb ed="#O" n="2" type="fixed=196r"/>
+            <figure xml:id="M8ag89-d1e68-Fcan28a">
+              <!-- figure 2 -->
+              <graphic url="https://exist.scta.info/exist/apps/scta-data/M8ag89/M8ag89-d1e68/figures/cod-u8i00i_M8ag89-d1e68-Fcan28a.svg">
+              </graphic>
+              <ab type="figure-details">
+                <!-- figure details are intended for metadata collection; not for display -->
+                <seg type="figure-text">figure 2 in cod-u8i00i</seg>
+                <seg type="figure-ideas">
+                  compass
+                </seg>
+              </ab>
+              <figDesc>
+                <!-- editor supplied description for accessibility etc -->
+                A compass figure 2 in cod-u8i00i
+              </figDesc>
+            </figure>
+            <!--00000026.xml-->
+            <pb ed="#O" n="192-v"/>
+            <lb ed="#O" n="1"/>Tutto il coperchio sia di cristallo, overo di altra matteria 
+            <lb ed="#O" n="2"/>tale trasparente, contiene il limbo, overo orlo A.B.C.D. 
+            <lb ed="#O" n="3"/>et l'orlo, che contiene tutta questa superficie, cioè 
+            <lb ed="#O" n="4"/>F. G. H. I. è il cerchio del catino, il quale fà insieme 
+            <lb ed="#O" n="5"/>col coperchio uauna superficie. 
+          </p>
+        </div>
+        <div xml:id="M8ag89-d1e68-Dd1e448">
+          <head xml:id="M8ag89-d1e68-Hd1e450">Caput 3</head>
+          <head xml:id="M8ag89-d1e68-Hd1e453" type="question-title">De artificio compositionis rotae perpetui motus</head>
+          <p xml:id="M8ag89-d1e68-d1e456">
+            <lb ed="#O" n="6"/>Dell'artificio del componere la rota del moto 
+            <lb ed="#O" n="7"/>perpetuo capitolo. 3.  
+          </p>
+          <p xml:id="M8ag89-d1e68-d1e463">
+            <lb ed="#O" n="8"/>In questo capitolo ti rivelerò il modo di componere 
+            <lb ed="#O" n="9"/>una rotta, che si move continuamente con ingegno  
+            <lb ed="#O" n="10"/>mirabile. Nalla cui inventione hò veduto molti 
+            <lb ed="#O" n="11"/>andare vagando, et essere da molte fatiche trav¬ 
+            <lb ed="#O" n="12"/>agliati, percio che avvertivano per la virtù, et 
+            <lb ed="#O" n="13"/>possanza di questa pietra potere essi pervenire al 
+            <lb ed="#O" n="14"/>fine di questo magisterio.
+          </p>
+          <p xml:id="M8ag89-d1e68-d1e487">
+            Per compire dunque 
+            <lb ed="#O" n="15"/>questa impresa, componerai una casetta di argento 
+            <lb ed="#O" n="16"/>aguisa di una cassa di specchio, con cava, lavorata 
+            <lb ed="#O" n="17"/>di fuori con sottile ingegno, con scolpiture, et fori, che 
+            <lb ed="#O" n="18"/>farai solamente per bellezza, et per alleggerirle il peso 
+            <lb ed="#O" n="19"/>perciò che quanto più sara leggiera tanto sarà meglio. 
+            <lb ed="#O" n="20"/>la forerai nondimeno in modo, che l'occhio delle ignorante 
+            <lb ed="#O" n="21"/>non scorga quello che dentro nelle cassette sottilmente si 
+            <!--00000027.xml-->
+            <pb ed="#O" n="193-r"/>
+            <cb ed="#O" n="a"/>
+            <lb ed="#O" n="1"/>ponera. Più a dentro siano picioli chiodi, overo piccoli 
+            <lb ed="#O" n="2"/>denti di ferro di un istesso peso ficcati nell'orlo, overo lembo, 
+            <lb ed="#O" n="3"/>pendenti all'ingiu, et chini, et vicini tanto, che l'uno 
+            <lb ed="#O" n="4"/>dall'altro non sia distante più che la grosezza di uno gra¬ 
+            <lb ed="#O" n="5"/>no di fava, overo di cece. Sia la detta piccola rota 
+            <lb ed="#O" n="6"/>di peso eguale in tutte le sue parti. et alhora ficcale 
+            <lb ed="#O" n="7"/>l'asse per mezo sopra il quale si volga la picola rota, 
+            <lb ed="#O" n="8"/>stando fermo l'asse, al quale asse aggiungasi uno stille 
+            <lb ed="#O" n="9"/>argento ficato nell'istesso, et collocato trà le due 
+            <lb ed="#O" n="10"/>cassette, nella cima del quale si ponga la calamita 
+            <lb ed="#O" n="11"/>apparecchiata in questo modo. 
+          </p>
+          <p xml:id="M8ag89-d1e68-d1e557">
+            Sia fatta rotonda, et 
+            <lb ed="#O" n="12"/>ritrovati li poli, come è detto, da poi si formi in modo 
+            <lb ed="#O" n="13"/>di ovo, non toccando i poli; et nelle due parti, che 
+            <lb ed="#O" n="14"/>sono tramezo opposte, si limi alquanto, acciò che ella 
+            <lb ed="#O" n="15"/>sia compressa, et ristretta, accio che occupi minore loco, 
+            <lb ed="#O" n="16"/>et non tocchi di dentro li parti della cassetta nel 
+            <lb ed="#O" n="17"/>movimento della piciola rota. Disposta in questa 
+            <lb ed="#O" n="18"/>guisa la calamita, sia collocata sopra lo stillo, come 
+            <lb ed="#O" n="19"/>la pietra nello annello: et sia il pollo di tramontana 
+            <lb ed="#O" n="20"/>verso li piccioli denti della piciola rota alquanto 
+            <lb ed="#O" n="21"/>piegato, et inclinato, accio che la sua virtù non per 
+            <lb ed="#O" n="22"/>diametro, ma con alquanto di inclinatione passi, 
+            <lb ed="#O" n="23"/>et si comparta ne i piccioli denti di ferro, tal che 
+            <lb ed="#O" n="24"/><!-- line coord error -->
+            <!--00000028.xml-->
+            <pb ed="#O" n="193-v"/>
+            <lb ed="#O" n="1"/>quando ciascuno piccolo dente sarà giunto al polo di 
+            <lb ed="#O" n="2"/>tramontana, et per lo impetto della piciola rota lo havera 
+            <lb ed="#O" n="3"/>un poco trapassato, si appressi alla parte di ostro, la 
+            <lb ed="#O" n="4"/>quale più tosto lo cacciera, che la tirerà, come è ma¬ 
+            <lb ed="#O" n="5"/>nifesto per la regola data di sopra. et così ciascuno 
+            <lb ed="#O" n="6"/>picciolo dente sara in perpetuo tratto, et in perpetua  
+            <lb ed="#O" n="7"/>fuga, 
+          </p>
+          <!-- fuzzy break and parallel -->
+          <p xml:id="M8ag89-d1e68-d1e616">
+            et affine, che la piciola rota eserciti più 
+            <lb ed="#O" n="8"/>velocemente l'offitio suo, rinchiudi nella cassetta 
+            <lb ed="#O" n="9"/>una picciola pallotta rotonda di metallo, overo di 
+            <lb ed="#O" n="10"/>argento grande tanto, che possa capere tra ogni 
+            <lb ed="#O" n="11"/>dua denti, si fattamente, che quando la rota sarà 
+            <lb ed="#O" n="12"/>levata la pallotta cada nella opposta parte. 
+            <lb ed="#O" n="13"/>Per la qual cosa essendo il moto della rota perpe¬ 
+            <lb ed="#O" n="14"/>tuo verso una parte, il cadere della pallotta 
+            <lb ed="#O" n="15"/>ancora sara nella parte opposta ricevuta frà 
+            <lb ed="#O" n="16"/>ogni dua denti della rota perpatua, la qual 
+            <lb ed="#O" n="17"/>pallotta per lo suo peso tendendo al centro della 
+            <lb ed="#O" n="18"/>terra fara giovamento, et non lascierà fermare i denti 
+            <lb ed="#O" n="19"/>al diritto della calamita. i luoghi frà li denti 
+            <lb ed="#O" n="20"/>debbono essere convenevolmente marcati, acciò¬ 
+            <lb ed="#O" n="21"/>che commodamente possano capere la pallotta 
+            <lb ed="#O" n="22"/>quando cade, si come la seguente figura dimostra. 
+          </p>
+          <p xml:id="M8ag89-d1e68-d1e561">
+            <pb ed="#O" n="199-r"/>
+            <lb ed="#O" n="1"/>
+            <figure xml:id="M8ag89-d1e68-Fcn48nn">
+              <!-- figure 3 -->
+              <graphic url="https://exist.scta.info/exist/apps/scta-data/M8ag89/M8ag89-d1e68/figures/cod-u8i00i_M8ag89-d1e68-Fcn48nn.svg">
+              </graphic>
+              <ab type="figure-details">
+                <!-- figure details are intended for metadata collection; not for display -->
+                <seg type="figure-text">figure 3 in cod-u8i00i</seg>
+                <seg type="figure-ideas">
+                  compass
+                </seg>
+              </ab>
+              <figDesc>
+                <!-- editor supplied description for accessibility etc -->
+                A compass figure 3 in cod-u8i00i
+              </figDesc>
+            </figure>
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>
