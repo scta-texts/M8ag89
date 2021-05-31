@@ -205,7 +205,7 @@
             <lb ed="#O" n="7"/>montana nell'instrumento dalla parte di tramontana. 
             <lb ed="#O" n="8"/>Fatto questo volgi la riga al sole di giorno, overo 
             <lb ed="#O" n="9"/>alla luna, overo alle stelle di notte nel modo sopra¬ 
-            <lb ed="#O" n="10"/>detto. 
+            <lb ed="#O" n="10" break="no"/>detto. 
           </p>
           <p xml:id="M8ag89-d1e68-d1e416">
             Per questo instrumento drizzarai similmente 
