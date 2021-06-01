@@ -218,7 +218,8 @@
             <lb ed="#O" n="17"/>instrumentale, come è qui dissegnata.
           </p>
           <p xml:id="M8ag89-d1e68-d1e438">
-            <lb ed="#O" n="2" type="fixed=196r"/>
+            <pb ed="#O" n="196-r" type="starts-on"/>
+            <lb ed="#O" n="2"/>
             <figure xml:id="M8ag89-d1e68-Fcan28a">
               <!-- figure 2 -->
               <graphic url="https://exist.scta.info/exist/apps/scta-data/M8ag89/M8ag89-d1e68/figures/cod-u8i00i_M8ag89-d1e68-Fcan28a.svg">
