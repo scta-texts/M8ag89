@@ -219,8 +219,8 @@
           </p>
           <p xml:id="M8ag89-d1e68-d1e438">
             <pb ed="#O" n="196-r" type="starts-on"/>
-            <lb ed="#O" n="2"/>
-            <figure xml:id="M8ag89-d1e68-Fcan28a">
+            
+            <figure xml:id="M8ag89-d1e68-Fcan28a"><lb ed="#O" n="2"/>
               <!-- figure 2 -->
               <graphic url="https://exist.scta.info/exist/apps/scta-data/M8ag89/M8ag89-d1e68/figures/cod-u8i00i_M8ag89-d1e68-Fcan28a.svg">
               </graphic>
@@ -331,8 +331,7 @@
           </p>
           <p xml:id="M8ag89-d1e68-d1e561">
             <pb ed="#O" n="199-r"/>
-            <lb ed="#O" n="1"/>
-            <figure xml:id="M8ag89-d1e68-Fcn48nn">
+            <figure xml:id="M8ag89-d1e68-Fcn48nn"><lb ed="#O" n="1"/>
               <!-- figure 3 -->
               <graphic url="https://exist.scta.info/exist/apps/scta-data/M8ag89/M8ag89-d1e68/figures/cod-u8i00i_M8ag89-d1e68-Fcn48nn.svg">
               </graphic>
