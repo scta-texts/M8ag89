@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -13,7 +13,7 @@
       <editionStmt>
         <edition n="0.0.0-dev">
           <title>Pars 1 [ONB lat. 5969]</title>
-          <date when="2021-03-12">March 12, 2021</date>
+          <date when="2022-04-13">April 13, 2022</date>
         </edition>
       </editionStmt>
       <publicationStmt>
@@ -38,7 +38,7 @@
     </encodingDesc>
     <revisionDesc status="draft">
       <listChange>
-        <change when="2021-03-12" status="draft" n="0.0.0">
+        <change when="2022-04-13" status="draft" n="0.0.0">
           <p>Created file for the first time.</p>  
         </change>
       </listChange>
@@ -133,6 +133,12 @@
             inferius narrabo dinoscitur</p>
           <p xml:id="M8ag89-d1e60-d1e148">Si ergo lapidem cum his differentiis inveneris hunc habeas si possis Patet ergo ex quibus
             differentiis eliciatur huius lapidis cognitio</p>
+          <p>
+          <lb ed="#O" type="fixed=197v" n="1"/>
+          <figure></figure>
+          <lb ed="#O" type="fixed=197v" n="2"/>
+          <figure></figure>
+          </p>
         </div>
         <div xml:id="M8ag89-d1e60-Dd1e151">
           <head xml:id="M8ag89-d1e60-Hd1e153">Caput 4</head>
