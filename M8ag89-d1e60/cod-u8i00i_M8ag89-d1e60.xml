@@ -2,7 +2,7 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>Pars 1 [Pal lat 1340 Transcription]</title>
+        <title>Pars 1 [ONB lat. 5969]</title>
         <author ref="#per-PePeMa">Petrus Peregrinus de Maricourt</author>
         <respStmt>
           <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
@@ -12,7 +12,7 @@
       </titleStmt>
       <editionStmt>
         <edition n="0.0.0-dev">
-          <title>Pars 1 [Pal lat 1340 Transcription]</title>
+          <title>Pars 1 [ONB lat. 5969]</title>
           <date when="2021-03-12">March 12, 2021</date>
         </edition>
       </editionStmt>
@@ -24,7 +24,7 @@
       </publicationStmt>
       <sourceDesc>
         <listWit>
-          <witness xml:id="V" n="cod-x998da">Rome, Biblioteca Apostolica Vaticana, Pal. lat. 1340</witness>
+          <witness xml:id="O" n="cod-u8i00i">ONB lat. 5969</witness>
         </listWit>
       </sourceDesc>
     </fileDesc>
@@ -47,53 +47,78 @@
   <text xml:lang="la">
     <front>
       <div xml:id="starts-on">
-        <pb ed="#V" n="30-v"/>
-        <cb ed="#V" n="b"/>
+        <pb ed="#0" n="180-v"/>
       </div>
     </front>
     <body>
       <div xml:id="M8ag89-d1e60">
-        <head xml:id="M8ag89-d1e60-Hd1e99">Pars 1</head>
+        <head xml:id="M8ag89-d1e60-Hd1e99">Pars 1 [ONB lat. 5969]</head>
         <div xml:id="M8ag89-d1e60-Dd1e101">
           <head xml:id="M8ag89-d1e60-Hd1e103">Caput 1</head>
           <head xml:id="M8ag89-d1e60-Hd1e105" type="question-title">De operis intentione</head>
           <p xml:id="M8ag89-d1e60-d1e108">
-            <lb ed="#V"/>Sequitur de intentione huius operis 
-            <lb ed="#V"/>et de <unclear>emulgatione</unclear> eiusdem 
+            <lb ed="#O" n="4"/>Quale debba essere l'artefice di quest'opera. Cap.lo 1. 
           </p>
           <p xml:id="M8ag89-d1e60-d1e117">
-            <lb ed="#V"/>Amicorum intime quandam magnetis lapidis occultam naturam a te interpellatus rudi narrazione
-            tibi reserabo utcumque Nihil enim apud philosophos absque notitiae partecipio est iucundum et in
-            tenebris orbitat et offuscatur bonorum natura donec in communis deditionis radium erigatur
-            Amore ergo tui conscribam sermone plano quae vulgo studentium penitus sunt ignota
-            Attamen non nisi de manifestis huius lapide in hac epistula trademus scientiam eo quod haec
-            traditio pars erit tractatus in quo docebimus physica componere instrumenta De occultis huius
-            lapidis tractare spectat ad artem lapidum sculpturae Et licet opera de quibus quaesivisti appellem
-            manifesta erunt tamen inaestimabilia et vulgo quasi illusione set phantasmata et ideo quoad
-            vulgum secreta sunt astrologis autem et naturalibus satis erunt manifesta et ipsis erunt solacium et
-            provectis viatoribus erunt non modici iuvamenti Ex his ergo colligatur huius operis intentio
+            Sappi essere bisogno che l'artefice di questa opera int¬
+            enda la natura delle cose, né sia ignorante dei moti
+            celesti, mà egli è mestieri, che esso sia industrioso, et
+            pratico à lavorare di sua mano, affine, che con la guida dell'
+            opera manuale dimostri gli effetti maravigliosi della
+            pietra calamitta: per ciò che con la industria sua
+            potra facilmente correggere gli errori, la qual cosa 
+            non potrebbe egli fare con le altre mathematiche, se
+            non sapesse lavorare di sua mano. Et veramente nelle 
+            occulte opere habbiamo gran bisogno dell'industria
+            manuale, et il più delle volte non possiamo fare
+            niente, che bene stia senza essa; et aviene che molte
+            cose stanno sotto la intelligenza della ragione, et
+            si comprendono con l'intelletto, le quali però non
+            si possono mettere in esq esequutione, ne compire
+            con le mani. Dalle cose dette ad un que è manifesto
+            quale debba essere l'artefice di questa opera.
+            
           </p>
         </div>
         <div xml:id="M8ag89-d1e60-Dd1e123">
           <head xml:id="M8ag89-d1e60-Hd1e125">Caput 2</head>
           <head xml:id="M8ag89-d1e60-Hd1e127" type="question-title">Qualis debeat esse huius operis artifex</head>
           <p xml:id="M8ag89-d1e60-d1e130">
-            Capitulum secundum qualis debeat esse huius operis artifex
+            <pb ed="#O" n="181-r"/>
+            Della cognitione della calamita. Cap.o 2.
           </p>
           <p xml:id="M8ag89-d1e60-d1e132">
-            Scito karissime quod oportet huius operis artificem scire rerum naturas nec ignarum ipsum esse
-            oportet motuum caelestium sed oportet ipsum esse industriosum in opere manuum ad hoc quod
-            ostendat per opus huius lapidis effectus mirabiles Nam per suam industriam ex modico poterit
-            errorem corrigere quod in Aeternum per naturalem et mathematicam solas non faceret si manuum
-            careret industria In occultis enim operibus multum indigemus industria manuali et ut plurimum
-            sine ipsa nihil possumus facere completum Multa namque subiacent imperio rationis que manu
-            complere non possumus Et his ergo patet qualis debeat esse huius operis artifex
+            Si conosce la calamita da quatro differenze, dal colore,
+            dall'essere tutta simile, et di una sorte nella sua
+            sostanza, dal Peso et dalla virtù. il colore suo
+            deve essere come di rugine di ferro, mescolato con
+            livido, overo di colore celeste, come apunto è il
+            ferro prima polito, et poi dall'aere machiato.
+            Tale sorte di calamità non vidi io gia mai senza
+            grande effetto. et nel più tale calamita si trova
+            nelle parti di Tramontana, come in Normandia, in
+            Piccardia, et in Fiandra, et è portata da Marinai
+            in tutte le parti del Mare. Deve essere anco questa
+            calamità simile in sostanza, per ciò che se ella ten¬
+            ira certe machie rosse, et certi fori, et buchi per entro
+            di lei, non è della elletta, et apena si trova si
+            trova calamita senza una certa quasi rogna.
+            il peso poi nasce della somiglianza delle sue parti
+            in sostanza, et per causa delle sue parti sottili si
+            fa più pesante, et più cara di pregio diviene.
+            La virtù sua si conosce dal tirare fortemente il
+            ferro, et dall'essere de gran peso, di che parleremo
+            più a basso se dunque tu troverai la calamita con
+            <pb ed="#O" n="181-v"/>
+            queste differenze et conditioni, habbila cara. E dunque
+            chiaro da quali differenze, et conditioni si conosca la
+            calamita.
           </p>
         </div>
         <div xml:id="M8ag89-d1e60-Dd1e135">
           <head xml:id="M8ag89-d1e60-Hd1e137">Caput 3</head>
           <p xml:id="M8ag89-d1e60-d1e139">
-            Capitulum tertium de cognizione lapidis
+            Della scientia del trovar le parti della Calamita. Cap.o 3.
           </p>
           <p xml:id="M8ag89-d1e60-d1e141">Cognoscitur autem iste lapis quatuor differentiis scilicet colore unigeneitate pondere et virtute
             Color autem ipsius debet esse ferreus lividus mixtus indico seu colore celestino ut sit quasi ferrum
@@ -306,8 +331,6 @@
           </p>
         </div>
       </div>
-      
-      
     </body>
   </text>
 </TEI>
