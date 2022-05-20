@@ -203,7 +203,7 @@
           <p>
             <lb ed="#O" type="fixed=197-v" n="1"/>
             <figure>
-              <graphic url="https://www.e-rara.ch/zut/i3f/v20/[canvasshortid]/405,411,2469,2407/full/0/default.jpg"/>
+              <graphic url="https://www.e-rara.ch/zut/i3f/v20/canvasshortid/405,411,2469,2407/full/0/default.jpg"/>
               <ab type="figure-details">
                 <seg type="figure-text">Ago ovor ferro polo di tram.a Azimuthi palla rotonda polo di ostro</seg>
                 <seg type="figure-ideas"/>
@@ -213,7 +213,7 @@
             </figure>
             <lb ed="#O" type="fixed=197-v" n="2"/>
             <figure>
-              <graphic url="https://www.e-rara.ch/zut/i3f/v20/[canvasshortid]/2947,385,1928,2696/full/0/default.jpg"/>
+              <graphic url="https://www.e-rara.ch/zut/i3f/v20/canvasshortid/2947,385,1928,2696/full/0/default.jpg"/>
               <ab type="figure-details">
                 <seg type="figure-text">ago ovor ferro rosso polo di tram.a polo di ostro</seg>
                 <seg type="figure-ideas"/>
@@ -274,7 +274,7 @@
           <p>
           <lb ed="#O" type="fixed=198-r" n="1"/>
           <figure>
-            <graphic url="https://www.e-rara.ch/zut/i3f/v20/[canvasshortid]/461,3304,2126,2276/full/0/default.jpg"/>
+            <graphic url="https://www.e-rara.ch/zut/i3f/v20/canvasshortid/461,3304,2126,2276/full/0/default.jpg"/>
             <ab type="figure-details">
               <seg type="figure-text">tramontana ostro</seg>
               <seg type="figure-ideas"/>
@@ -285,7 +285,7 @@
 
           <lb ed="#O" type="fixed=198-v" n="1"/>
           <figure>
-            <graphic url="https://www.e-rara.ch/zut/i3f/v20/[canvasshortid]/2666,3279,1923,2263/full/0/default.jpg"/>
+            <graphic url="https://www.e-rara.ch/zut/i3f/v20/canvasshortid/2666,3279,1923,2263/full/0/default.jpg"/>
             <ab type="figure-details">
               <seg type="figure-text">tramontana ostro tramontana ostro</seg>
               <seg type="figure-ideas"/>
@@ -296,7 +296,7 @@
 
           <lb ed="#O" type="fixed=199-r" n="1"/>
           <figure>
-            <graphic url="https://www.e-rara.ch/zut/i3f/v20/[canvasshortid]/519,874,2149,2560/full/0/default.jpg"/>
+            <graphic url="https://www.e-rara.ch/zut/i3f/v20/canvasshortid/519,874,2149,2560/full/0/default.jpg"/>
             <ab type="figure-details">
               <seg type="figure-text">tramontana ostro fragatolla C.ta ferro d'alla parte di tra¬ montana</seg>
               <seg type="figure-ideas"/>
@@ -375,18 +375,16 @@
             <lb ed="#O" n="10"/>tirerebbe più la calamita, che il ferro cosa che è
             <lb ed="#O" n="11"/>falsa come è manifesto per la esperienza;
             <!--00000011.xml-->
-            <pb ed="#O" n="185-r"/>
-          </p>
-          <p>
             
-            <!--figure-->
           </p>
+
           
         </div>
         <div xml:id="M8ag89-d1e60-Dd1e205">
           <head xml:id="M8ag89-d1e60-Hd1e207">Caput 7</head>
           <head xml:id="M8ag89-d1e60-Hd1e209" type="question-title">Qualiter ferrum tactum cum magnete ad polos mundi vertatur</head>
           <p xml:id="M8ag89-d1e60-d1e212">
+            <pb ed="#O" n="185-r"/>
             <lb ed="#O" n="1"/>Come il ferro toccato con la calamita si voltria i poli
             <lb ed="#O" n="2"/>del mondo. capitolo. VI.
           </p>
@@ -442,14 +440,14 @@
             <lb ed="#O" n="20"/>ostro, et così per lo contrario; la causa di ciò la
             <lb ed="#O" n="21"/>ultima impressione dell'agente, che confonde, et con¬
             <lb ed="#O" n="22"/>la virtù del primo motore.
-            <!--00000014.xml correct position in XML?-->
-            <pb ed="#O" n="186-r"/>
+            <!--00000014.xml correct position in XML?-->          
           </p>
         </div>
         <div xml:id="M8ag89-d1e60-Dd1e234">
           <head xml:id="M8ag89-d1e60-Hd1e236">Caput 9</head>
           <head xml:id="M8ag89-d1e60-Hd1e238" type="question-title">Qualiter pars septemtrionalis meridiolanem attrahat et e converso</head>
           <p xml:id="M8ag89-d1e60-d1e241">
+            <pb ed="#O" n="186-r"/>
             <lb ed="#O" n="1"/>Perché la parte di tramontana tira quella di
             <lb ed="#O" n="2"/>ostro et per lo contrario. capitolo. VIII.
           </p>
@@ -550,11 +548,11 @@
             <lb ed="#O" n="16"/>ntana, et per lo contrario, et parimente come quello di
             <lb ed="#O" n="17"/>ostro il di ostro, et quello di tramontana il di tramontana
             <lb ed="#O" n="18"/>fugge per natura.
-            
+          </p>
             <p>
               <lb ed="#O" type="fixed=198-r" n="2"/>
               <figure>
-                <graphic url="https://www.e-rara.ch/zut/i3f/v20/[canvasshortid]/2737,859,1953,1657/full/0/default.jpg"/>
+                <graphic url="https://www.e-rara.ch/zut/i3f/v20/canvasshortid/2737,859,1953,1657/full/0/default.jpg"/>
                 <ab type="figure-details">
                   <seg type="figure-text">naturale B C A D. 4 D 0 + C B A D natur nnn 0 + 0 4</seg>
                   <seg type="figure-ideas"/>
@@ -565,7 +563,7 @@
 
               <lb ed="#O" type="fixed=198-r" n="3"/>
               <figure>
-                <graphic url="https://www.e-rara.ch/zut/i3f/v20/[canvasshortid]/2744,2531,2017,1683/full/0/default.jpg"/>
+                <graphic url="https://www.e-rara.ch/zut/i3f/v20/canvasshortid/2744,2531,2017,1683/full/0/default.jpg"/>
                 <ab type="figure-details">
                   <seg type="figure-text">non naturale B C A D. non naturale 0 + + 0 D C B A non naturale + 0 0</seg>
                   <seg type="figure-ideas"/>
@@ -575,19 +573,19 @@
               </figure>
           </p>
         </div>
-        [pbreak]<!--00000017.xml correct XML pos?-->
-        <pb ed="#O" n="188-r"/>
+
+        
         <div xml:id="M8ag89-d1e60-Dd1e254">
           <head xml:id="M8ag89-d1e60-Hd1e256">Caput 10</head>
           <head xml:id="M8ag89-d1e60-Hd1e258" type="question-title">De inquisitione unde magnes virtutem naturalem, quam habet, recipiat</head>
           <p xml:id="M8ag89-d1e60-d1e261"/>
           <!--something missing here?-->
           <p xml:id="M8ag89-d1e60-d1e263">
+            <pb ed="#O" n="188-r"/>
             <lb ed="#O" n="1"/>Della inquisitione, onde la calamita prenda la
             <lb ed="#O" n="2"/>virtù naturale, che hà. Capitolo IX.
           </p>
           <p xml:id="M8ag89-d1e60-d1e265">
-            <lb ed="#V"/>
             <lb ed="#O" n="3"/>Alcuni debili inquisitori delle cose naturali hanno stim¬
             <lb ed="#O" n="4"/>ato, che la virtu, della calamita, con la quale opera
             <lb ed="#O" n="5"/>nel ferro sia nei lochi minerali, nei quali essa cala¬
